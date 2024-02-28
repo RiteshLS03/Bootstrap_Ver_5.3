@@ -398,7 +398,7 @@ const App = () => {
 
 function Header() {
   return (
-    <header className="d-flex justify-content-center align-items-center">
+    <header className="d-flex justify-content-center fixed-top align-items-center">
       <h1>Header</h1>
     </header>
   );
@@ -1068,322 +1068,1101 @@ function Body() {
     //     </div>
     //   </div>
     // </div>
-    <div className="px-4">
-      <h1>Day 04 and 05</h1>
-      {/* <div>
-        <h1>Media Object</h1>
-        <div className="container-fluid d-flex align-items-center border border-4 border-warning">
-          <div className="flex-shrink-0">
+    // <div className="px-4">
+    //   <h1>Day 04 and 05</h1>
+    //   {/* <div>
+    //     <h1>Media Object</h1>
+    //     <div className="container-fluid d-flex align-items-center border border-4 border-warning">
+    //       <div className="flex-shrink-0">
+    //         <img
+    //           src={products[1].thumbnail}
+    //           alt="img"
+    //           width={240}
+    //           className="align-self-end"
+    //         />
+    //         <div className="flex-grow-1">
+    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div> */}
+    //   <div>
+    //     <h1>Typography</h1>
+    //     <div className="container">
+    //       <h1>h1. Bootstrap heading</h1>
+    //       <h2>h2. Bootstrap heading</h2>
+    //       <h3>h3. Bootstrap heading</h3>
+    //       <h4>h4. Bootstrap heading</h4>
+    //       <h5>h5. Bootstrap heading</h5>
+    //       <h6>h6. Bootstrap heading</h6>
+    //       <h1>---Bootstrap Classes---</h1>
+    //       <p className="h1">h1. Bootstrap heading</p>
+    //       <p className="h2">h2. Bootstrap heading</p>
+    //       <p className="h3">h3. Bootstrap heading</p>
+    //       <p className="h4">h4. Bootstrap heading</p>
+    //       <p className="h5">h5. Bootstrap heading</p>
+    //       <p className="h6">h6. Bootstrap heading</p>
+    //       <h1>Custom Heading</h1>
+    //       <h3>
+    //         Fancy display heading
+    //         <small class=" text-muted text-body-secondary">
+    //           {" "}
+    //           With faded secondary text
+    //         </small>
+    //       </h3>
+    //       <h1>Display</h1>
+    //       <h1 className="display-1">Display 1</h1>
+    //       <h1 className="display-2">Display 2</h1>
+    //       <h1 className="display-3">Display 3</h1>
+    //       <h1 className="display-4">Display 4</h1>
+    //       <h1 className="display-5">Display 5</h1>
+    //       <h1 className="display-6">Display 6</h1>
+    //       <h1>
+    //         Lead -{" "}
+    //         <p class="lead">
+    //           This is a lead paragraph. It stands out from regular paragraphs.
+    //         </p>
+    //       </h1>
+
+    //       <p>
+    //         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    //         ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    //         aliquip ex ea commodo consequat. Duis aute irure dolor in
+    //         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    //         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    //         culpa qui officia deserunt mollit anim id est laborum
+    //       </p>
+    //       <p className="lead">
+    //         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+    //         ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+    //         aliquip ex ea commodo consequat. Duis aute irure dolor in
+    //         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    //         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    //         culpa qui officia deserunt mollit anim id est laborum
+    //       </p>
+    //       <h1>Inline text elements</h1>
+    //       <p>
+    //         You can use the mark tag to <mark>highlight</mark> text.
+    //       </p>
+    //       <p>
+    //         <del>This line of text is meant to be treated as deleted text.</del>
+    //       </p>
+    //       <p>
+    //         <s>
+    //           This line of text is meant to be treated as no longer accurate.
+    //         </s>
+    //       </p>
+    //       <p>
+    //         <ins>
+    //           This line of text is meant to be treated as an addition to the
+    //           document.
+    //         </ins>
+    //       </p>
+    //       <p>
+    //         <u>This line of text will render as underlined.</u>
+    //       </p>
+    //       <p>
+    //         <small>
+    //           This line of text is meant to be treated as fine print.
+    //         </small>
+    //       </p>
+    //       <p>
+    //         <strong>This line rendered as bold text.</strong>
+    //       </p>
+    //       <p>
+    //         <em>This line rendered as italicized text.</em>
+    //       </p>
+    //       <p>
+    //         <abbr title="attribute">attr</abbr>
+    //       </p>
+    //       <p>
+    //         <abbr title="HyperText Markup Language" class="initialism">
+    //           HTML
+    //         </abbr>
+    //       </p>
+    //       <blockquote class="blockquote">
+    //         <p>A well-known quote, contained in a blockquote element.</p>
+    //       </blockquote>
+    //       <p className="blockquote">Quote is there ? </p>
+    //     </div>
+    //   </div>
+    //   <div>
+    //     <h1>In the evening</h1>
+    //     <div className="container">
+    //       <blockquote class="blockquote">
+    //         <p>A well-known quote, contained in a blockquote element.</p>
+    //       </blockquote>
+    //       <figure class="text-center">
+    //         <blockquote class="blockquote">
+    //           <p>A well-known quote, contained in a blockquote element.</p>
+    //         </blockquote>
+    //         <figcaption class="blockquote-footer">
+    //           Someone famous in <cite title="Source Title">Source Title</cite>
+    //         </figcaption>
+    //       </figure>
+    //       <figure class="text-end">
+    //         <blockquote class="blockquote">
+    //           <p>A well-known quote, contained in a blockquote element.</p>
+    //         </blockquote>
+    //         <figcaption class="blockquote-footer">
+    //           Someone famous in <cite title="Source Title">Source Title</cite>
+    //         </figcaption>
+    //       </figure>
+    //       <ul class="list-unstyled">
+    //         <li>This is a list.</li>
+    //         <li>It appears completely unstyled.</li>
+    //         <li>Structurally, it's still a list.</li>
+    //         <li>
+    //           However, this style only applies to immediate child elements.
+    //         </li>
+    //         <li>
+    //           Nested lists:
+    //           <ul>
+    //             <li>are unaffected by this style</li>
+    //             <li>will still show a bullet</li>
+    //             <li>and have appropriate left margin</li>
+    //           </ul>
+    //         </li>
+    //         <li>This may still come in handy in some situations.</li>
+    //       </ul>
+    //       <ul class="list-inline">
+    //         <li class="list-inline-item">This is a list item.</li>
+    //         <li class="list-inline-item">And another one.</li>
+    //         <li class="list-inline-item">But they're displayed inline.</li>
+    //       </ul>
+    //       <h1>Description</h1>
+    //       <dl class="row">
+    //         <dt class="col-sm-3">Description lists</dt>
+    //         <dd class="col-sm-9">
+    //           A description list is perfect for defining terms.
+    //         </dd>
+
+    //         <dt class="col-sm-3">Term</dt>
+    //         <dd class="col-sm-9">
+    //           <p>Definition for the term.</p>
+    //           <p>And some more placeholder definition text.</p>
+    //         </dd>
+
+    //         <dt class="col-sm-3">Another term</dt>
+    //         <dd class="col-sm-9">
+    //           This definition is short, so no extra paragraphs or anything.
+    //         </dd>
+
+    //         <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+    //         <dd class="col-sm-9">
+    //           This can be useful when space is tight. Adds an ellipsis at the
+    //           end.
+    //         </dd>
+
+    //         <dt class="col-sm-3">Nesting</dt>
+    //         <dd class="col-sm-9">
+    //           <dl class="row">
+    //             <dt class="col-sm-4">Nested definition list</dt>
+    //             <dd class="col-sm-8">
+    //               I heard you like definition lists. Let me put a definition
+    //               list inside your definition list.
+    //             </dd>
+    //           </dl>
+    //         </dd>
+    //       </dl>
+    //     </div>
+    //   </div>
+    //   <div>
+    //     <h1>Images in Bootstrap Ver 5.3</h1>
+    //     <div className="container">
+    //       <img src={products[3].thumbnail} alt="img"></img>
+    //     </div>
+    //     <div className="container m-2">
+    //       <img
+    //         className="img-fluid img-thumbnail float-right"
+    //         src={products[3].thumbnail}
+    //         width={"100%"}
+    //         alt="img"
+    //       />
+    //       <img
+    //         className="img-fluid float-left"
+    //         src={products[5].thumbnail}
+    //         alt="img2"
+    //         width={"100%"}
+    //       />
+    //     </div>
+    //     <div className="container"></div>
+    //   </div>
+    //   <div>
+    //     <h1>Tables in Bootstrap</h1>
+    //     <div>
+    //       <table className="table">
+    //         <thead>
+    //           <th scope="row">Sr No</th>
+    //           <th scope="row">Product Name</th>
+    //           <th scope="row">Description</th>
+    //           <th scope="row">Price</th>
+    //         </thead>
+    //         <tbody>
+    //           {products
+    //             .filter((item) => item.id <= 5)
+    //             .map((item, index) => {
+    //               return (
+    //                 <tr key={index}>
+    //                   <th scope="row">{item.id}</th>
+    //                   <td>{item.title}</td>
+    //                   <td>{item.description}</td>
+    //                   <td>{item.price}$</td>
+    //                 </tr>
+    //               );
+    //             })}
+    //         </tbody>
+    //       </table>
+    //       <h1>Table Styling </h1>
+    //       <table className="table table-dark table-striped">
+    //         <thead className="thead-dark">
+    //           <th scope="row">Sr No</th>
+    //           <th scope="row">Product Name</th>
+    //           <th scope="row">Description</th>
+    //           <th scope="row">Price</th>
+    //         </thead>
+    //         <tbody>
+    //           {products
+    //             .filter((item) => item.id <= 10 && item.id > 5)
+    //             .map((item, index) => {
+    //               return (
+    //                 <tr key={index}>
+    //                   <th scope="row">{item.id}</th>
+    //                   <td>{item.title}</td>
+    //                   <td>{item.description}</td>
+    //                   <td>{item.price}$</td>
+    //                 </tr>
+    //               );
+    //             })}
+    //         </tbody>
+    //       </table>
+    //       <h1>Columns and Strip and border</h1>
+    //       <table className="table table-bordered table-striped-columns">
+    //         <thead className="thead-dark">
+    //           <th scope="row">Sr No</th>
+    //           <th scope="row">Product Name</th>
+    //           <th scope="row">Description</th>
+    //           <th scope="row">Price</th>
+    //         </thead>
+    //         <tbody>
+    //           {products
+    //             .filter((item) => item.id >= 11 && item.id <= 15)
+    //             .map((item, index) => {
+    //               return (
+    //                 <tr key={index}>
+    //                   <th scope="row">{item.id}</th>
+    //                   <td>{item.title}</td>
+    //                   <td>{item.description}</td>
+    //                   <td>{item.price}$</td>
+    //                 </tr>
+    //               );
+    //             })}
+    //         </tbody>
+    //       </table>
+    //       <h1>Table Hover and Color </h1>
+    //       <table className="table table-hover">
+    //         <thead>
+    //           <th scope="row">Sr No</th>
+    //           <th scope="row">Product Name</th>
+    //           <th scope="row">Description</th>
+    //           <th scope="row">Price</th>
+    //         </thead>
+    //         <tbody>
+    //           {products
+    //             .filter((item) => item.id >= 16 && item.id <= 20)
+    //             .map((item, index) => {
+    //               return (
+    //                 <tr key={index}>
+    //                   <th scope="row">{item.id}</th>
+    //                   <td className="table-warning">{item.title}</td>
+    //                   <td className="table-danger">{item.description}</td>
+    //                   <td className="table-success">{item.price}$</td>
+    //                 </tr>
+    //               );
+    //             })}
+    //         </tbody>
+    //       </table>
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="m-5 d-flex justify-content-center align-item-center">
+      <div>
+        <h1>Day 06</h1>
+        <div>
+          <h1>Figures</h1>
+          <div>
+            <figure className="figure">
+              <img
+                src={products[10].thumbnail}
+                className="figure-img img-fluid rounded"
+                alt="A generic square placeholder with rounded corners in a figure."
+              />
+              <figcaption className="figure-caption text-center">
+                A Bird
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div>
+          <h1> Colors</h1>
+          <div>
+            <h1 className="text-primary">Blue</h1>
+            <h1 className="text-danger">Red</h1>
+            <h1 className="text-warning">Yellow</h1>
+            <h1 className="text-emphasis">Emphasis</h1>
+            <h1 className="text-dark">Black Or Dark</h1>
+            <h1 className="text-muted">Muted</h1>
+          </div>
+        </div>
+        <div>
+          <h1>Borders</h1>
+          <div>
+            <div
+              className="border border-top border-warning border-5 m-2"
+              style={{ height: "200px" }}
+            ></div>
+            <div
+              className="border-warning border border-5 m-2"
+              style={{ height: "200px" }}
+            ></div>
+            <div
+              className="border-top border-5 border-info m-2"
+              style={{ height: "200px" }}
+            >
+              BORDER-TOP
+            </div>
+            <div
+              className="border-end border-5 border-success m-2"
+              style={{ height: "200px" }}
+            >
+              BORDER-END
+            </div>
+            <div
+              className="border-bottom border-5 border-danger m-2"
+              style={{ height: "200px" }}
+            >
+              BORDER-BOTTOM
+            </div>
+            <div
+              className="border-start border-5 border-secondary m-2"
+              style={{ height: "200px" }}
+            >
+              BORDER-START
+            </div>
             <img
-              src={products[1].thumbnail}
-              alt="img"
-              width={240}
-              className="align-self-end"
+              src={products[16].thumbnail}
+              className="rounded-circle"
+              alt="1"
             />
-            <div className="flex-grow-1">
+            <img src={products[16].thumbnail} className="" alt="2" />
+          </div>
+        </div>
+        <div>
+          <h1>Text</h1>
+          <div>
+            <h1>Normal</h1>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+              felis eget velit aliquet. Ultrices neque ornare aenean euismod
+              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+              ac orci phasellus egestas tellus. Aliquam etiam erat velit
+              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+              ullamcorper. Id velit ut tortor pretium viverra suspendisse
+              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+              Consectetur lorem donec massa sapien faucibus et molestie ac.
+              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+              et netus et malesuada fames ac. Est velit egestas dui id ornare
+              arcu odio ut sem. Tellus id interdum velit laoreet id donec
+              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+              mauris in aliquam sem. Dolor purus non enim praesent elementum.
+              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+              senectus et netus et malesuada fames ac. Elementum curabitur vitae
+              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+              ut eu sem integer vitae.
+            </p>{" "}
+            <h1>justify</h1>
+            <p className="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+              felis eget velit aliquet. Ultrices neque ornare aenean euismod
+              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+              ac orci phasellus egestas tellus. Aliquam etiam erat velit
+              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+              ullamcorper. Id velit ut tortor pretium viverra suspendisse
+              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+              Consectetur lorem donec massa sapien faucibus et molestie ac.
+              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+              et netus et malesuada fames ac. Est velit egestas dui id ornare
+              arcu odio ut sem. Tellus id interdum velit laoreet id donec
+              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+              mauris in aliquam sem. Dolor purus non enim praesent elementum.
+              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+              senectus et netus et malesuada fames ac. Elementum curabitur vitae
+              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+              ut eu sem integer vitae.
+            </p>{" "}
+            <h1>left</h1>
+            <p className="text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+              felis eget velit aliquet. Ultrices neque ornare aenean euismod
+              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+              ac orci phasellus egestas tellus. Aliquam etiam erat velit
+              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+              ullamcorper. Id velit ut tortor pretium viverra suspendisse
+              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+              Consectetur lorem donec massa sapien faucibus et molestie ac.
+              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+              et netus et malesuada fames ac. Est velit egestas dui id ornare
+              arcu odio ut sem. Tellus id interdum velit laoreet id donec
+              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+              mauris in aliquam sem. Dolor purus non enim praesent elementum.
+              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+              senectus et netus et malesuada fames ac. Elementum curabitur vitae
+              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+              ut eu sem integer vitae.
+            </p>
+            <h1>right</h1>
+            <p className="text-right">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+              felis eget velit aliquet. Ultrices neque ornare aenean euismod
+              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+              ac orci phasellus egestas tellus. Aliquam etiam erat velit
+              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+              ullamcorper. Id velit ut tortor pretium viverra suspendisse
+              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+              Consectetur lorem donec massa sapien faucibus et molestie ac.
+              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+              et netus et malesuada fames ac. Est velit egestas dui id ornare
+              arcu odio ut sem. Tellus id interdum velit laoreet id donec
+              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+              mauris in aliquam sem. Dolor purus non enim praesent elementum.
+              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+              senectus et netus et malesuada fames ac. Elementum curabitur vitae
+              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+              ut eu sem integer vitae.
+            </p>
+            <h1>center</h1>
+            <p className="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+              felis eget velit aliquet. Ultrices neque ornare aenean euismod
+              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+              ac orci phasellus egestas tellus. Aliquam etiam erat velit
+              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+              ullamcorper. Id velit ut tortor pretium viverra suspendisse
+              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+              Consectetur lorem donec massa sapien faucibus et molestie ac.
+              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+              et netus et malesuada fames ac. Est velit egestas dui id ornare
+              arcu odio ut sem. Tellus id interdum velit laoreet id donec
+              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+              mauris in aliquam sem. Dolor purus non enim praesent elementum.
+              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+              senectus et netus et malesuada fames ac. Elementum curabitur vitae
+              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+              ut eu sem integer vitae.
+            </p>
+          </div>
+        </div>
+        <div className="container">
+          <h1>Spacing</h1>
+          <div className="border border-primary border-1">
+            <div className="border border-3 border-danger m-3 p-3 bg-warning">
+              MARGIN 16PX and PADDING 16PX
+            </div>
+            <div className="border border-3 border-danger m-5 p-5 bg-warning">
+              MARGIN 48PX and PADDING 48PX
+            </div>
+            <div
+              className="border border-3 border-danger mx-auto bg-warning"
+              style={{ width: "200px" }}
+            >
+              <h2>Centered auto</h2>
             </div>
           </div>
         </div>
-      </div> */}
-      <div>
-        <h1>Typography</h1>
-        <div className="container">
-          <h1>h1. Bootstrap heading</h1>
-          <h2>h2. Bootstrap heading</h2>
-          <h3>h3. Bootstrap heading</h3>
-          <h4>h4. Bootstrap heading</h4>
-          <h5>h5. Bootstrap heading</h5>
-          <h6>h6. Bootstrap heading</h6>
-          <h1>---Bootstrap Classes---</h1>
-          <p className="h1">h1. Bootstrap heading</p>
-          <p className="h2">h2. Bootstrap heading</p>
-          <p className="h3">h3. Bootstrap heading</p>
-          <p className="h4">h4. Bootstrap heading</p>
-          <p className="h5">h5. Bootstrap heading</p>
-          <p className="h6">h6. Bootstrap heading</p>
-          <h1>Custom Heading</h1>
-          <h3>
-            Fancy display heading
-            <small class=" text-muted text-body-secondary">
-              {" "}
-              With faded secondary text
-            </small>
-          </h3>
-          <h1>Display</h1>
-          <h1 className="display-1">Display 1</h1>
-          <h1 className="display-2">Display 2</h1>
-          <h1 className="display-3">Display 3</h1>
-          <h1 className="display-4">Display 4</h1>
-          <h1 className="display-5">Display 5</h1>
-          <h1 className="display-6">Display 6</h1>
-          <h1>
-            Lead -{" "}
-            <p class="lead">
-              This is a lead paragraph. It stands out from regular paragraphs.
-            </p>
-          </h1>
+        <div className="border border-2 border-warning m-3">
+          <h1>Vertical Alignment</h1>
+          <p>Used only in inline element</p>
+          {/* {alignClasses.map((ele, index) => {
+            return (
+              <span
+                className={`${ele} border border-warning m-3`}
+                style={{ height: "" }}
+              >
+              </span>
+            );
+          })} */}
+          <span className="border border-warning m-3 align-baseline">
+            Baseline
+          </span>
+          <span className="border border-warning m-3 align-top">Tope</span>
+          <span className="border border-warning m-3 align-bottom">Bottom</span>
+          <span className="border border-warning m-3 align-text-pop">
+            Text-Pop
+          </span>
+          <span className="border border-warning m-3 align-middle">Middle</span>
+          <span className="border border-warning m-3 align-baseline">
+            Baseline
+          </span>
+          <table className="table table-bordered">
+            <tbody className="border border-2" style={{ height: "200px" }}>
+              <td className=" m-3 align-baseline">Baseline</td>
+              <td className=" m-3 align-top">Top</td>
+              <td className=" m-3 align-bottom">Bottom</td>
+              <td className=" m-3 align-text-pop">Text-Pop</td>
+              <td className=" m-3 align-middle">Middle</td>
+            </tbody>
+          </table>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </p>
-          <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </p>
-          <h1>Inline text elements</h1>
-          <p>
-            You can use the mark tag to <mark>highlight</mark> text.
-          </p>
-          <p>
-            <del>This line of text is meant to be treated as deleted text.</del>
-          </p>
-          <p>
-            <s>
-              This line of text is meant to be treated as no longer accurate.
-            </s>
-          </p>
-          <p>
-            <ins>
-              This line of text is meant to be treated as an addition to the
-              document.
-            </ins>
-          </p>
-          <p>
-            <u>This line of text will render as underlined.</u>
-          </p>
-          <p>
-            <small>
-              This line of text is meant to be treated as fine print.
-            </small>
-          </p>
-          <p>
-            <strong>This line rendered as bold text.</strong>
-          </p>
-          <p>
-            <em>This line rendered as italicized text.</em>
-          </p>
-          <p>
-            <abbr title="attribute">attr</abbr>
-          </p>
-          <p>
-            <abbr title="HyperText Markup Language" class="initialism">
-              HTML
-            </abbr>
-          </p>
-          <blockquote class="blockquote">
-            <p>A well-known quote, contained in a blockquote element.</p>
-          </blockquote>
-          <p className="blockquote">Quote is there ? </p>
+          <div></div>
         </div>
-      </div>
-      <div>
-        <h1>In the evening</h1>
-        <div className="container">
-          <blockquote class="blockquote">
-            <p>A well-known quote, contained in a blockquote element.</p>
-          </blockquote>
-          <figure class="text-center">
-            <blockquote class="blockquote">
-              <p>A well-known quote, contained in a blockquote element.</p>
-            </blockquote>
-            <figcaption class="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </figcaption>
-          </figure>
-          <figure class="text-end">
-            <blockquote class="blockquote">
-              <p>A well-known quote, contained in a blockquote element.</p>
-            </blockquote>
-            <figcaption class="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </figcaption>
-          </figure>
-          <ul class="list-unstyled">
-            <li>This is a list.</li>
-            <li>It appears completely unstyled.</li>
-            <li>Structurally, it's still a list.</li>
-            <li>
-              However, this style only applies to immediate child elements.
-            </li>
-            <li>
-              Nested lists:
-              <ul>
-                <li>are unaffected by this style</li>
-                <li>will still show a bullet</li>
-                <li>and have appropriate left margin</li>
-              </ul>
-            </li>
-            <li>This may still come in handy in some situations.</li>
-          </ul>
-          <ul class="list-inline">
-            <li class="list-inline-item">This is a list item.</li>
-            <li class="list-inline-item">And another one.</li>
-            <li class="list-inline-item">But they're displayed inline.</li>
-          </ul>
-          <h1>Description</h1>
-          <dl class="row">
-            <dt class="col-sm-3">Description lists</dt>
-            <dd class="col-sm-9">
-              A description list is perfect for defining terms.
-            </dd>
-
-            <dt class="col-sm-3">Term</dt>
-            <dd class="col-sm-9">
-              <p>Definition for the term.</p>
-              <p>And some more placeholder definition text.</p>
-            </dd>
-
-            <dt class="col-sm-3">Another term</dt>
-            <dd class="col-sm-9">
-              This definition is short, so no extra paragraphs or anything.
-            </dd>
-
-            <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-            <dd class="col-sm-9">
-              This can be useful when space is tight. Adds an ellipsis at the
-              end.
-            </dd>
-
-            <dt class="col-sm-3">Nesting</dt>
-            <dd class="col-sm-9">
-              <dl class="row">
-                <dt class="col-sm-4">Nested definition list</dt>
-                <dd class="col-sm-8">
-                  I heard you like definition lists. Let me put a definition
-                  list inside your definition list.
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </div>
-      </div>
-      <div>
-        <h1>Images in Bootstrap Ver 5.3</h1>
-        <div className="container">
-          <img src={products[3].thumbnail} alt="img"></img>
-        </div>
-        <div className="container m-2">
-          <img
-            className="img-fluid img-thumbnail float-right"
-            src={products[3].thumbnail}
-            width={"100%"}
-            alt="img"
-          />
-          <img
-            className="img-fluid float-left"
-            src={products[5].thumbnail}
-            alt="img2"
-            width={"100%"}
-          />
-        </div>
-        <div className="container"></div>
-      </div>
-      <div>
-        <h1>Tables in Bootstrap</h1>
         <div>
-          <table className="table">
-            <thead>
-              <th scope="row">Sr No</th>
-              <th scope="row">Product Name</th>
-              <th scope="row">Description</th>
-              <th scope="row">Price</th>
-            </thead>
-            <tbody>
-              {products
-                .filter((item) => item.id <= 5)
-                .map((item, index) => {
-                  return (
-                    <tr key={index}>
-                      <th scope="row">{item.id}</th>
-                      <td>{item.title}</td>
-                      <td>{item.description}</td>
-                      <td>{item.price}$</td>
-                    </tr>
-                  );
-                })}
-            </tbody>
-          </table>
-          <h1>Table Styling </h1>
-          <table className="table table-dark table-striped">
-            <thead className="thead-dark">
-              <th scope="row">Sr No</th>
-              <th scope="row">Product Name</th>
-              <th scope="row">Description</th>
-              <th scope="row">Price</th>
-            </thead>
-            <tbody>
-              {products
-                .filter((item) => item.id <= 10 && item.id > 5)
-                .map((item, index) => {
-                  return (
-                    <tr key={index}>
-                      <th scope="row">{item.id}</th>
-                      <td>{item.title}</td>
-                      <td>{item.description}</td>
-                      <td>{item.price}$</td>
-                    </tr>
-                  );
-                })}
-            </tbody>
-          </table>
-          <h1>Columns and Strip and border</h1>
-          <table className="table table-bordered table-striped-columns">
-            <thead className="thead-dark">
-              <th scope="row">Sr No</th>
-              <th scope="row">Product Name</th>
-              <th scope="row">Description</th>
-              <th scope="row">Price</th>
-            </thead>
-            <tbody>
-              {products
-                .filter((item) => item.id >= 11 && item.id <= 15)
-                .map((item, index) => {
-                  return (
-                    <tr key={index}>
-                      <th scope="row">{item.id}</th>
-                      <td>{item.title}</td>
-                      <td>{item.description}</td>
-                      <td>{item.price}$</td>
-                    </tr>
-                  );
-                })}
-            </tbody>
-          </table>
-          <h1>Table Hover and Color </h1>
-          <table className="table table-hover">
-            <thead>
-              <th scope="row">Sr No</th>
-              <th scope="row">Product Name</th>
-              <th scope="row">Description</th>
-              <th scope="row">Price</th>
-            </thead>
-            <tbody>
-              {products
-                .filter((item) => item.id >= 16 && item.id <= 20)
-                .map((item, index) => {
-                  return (
-                    <tr key={index}>
-                      <th scope="row">{item.id}</th>
-                      <td className="table-warning">{item.title}</td>
-                      <td className="table-danger">{item.description}</td>
-                      <td className="table-success">{item.price}$</td>
-                    </tr>
-                  );
-                })}
-            </tbody>
-          </table>
+          <h1>Visibility</h1>
+          <p>Used to hide or show the element</p>
+          <h2 className="visible">VISIBLE</h2>
+          <h2 className="invisible">INVISIBLE</h2>
+        </div>
+        <div>
+          <h1>Sizing</h1>
+          <div
+            className="w-25 m-3 p-5 border border-danger"
+            style={{ backgroundColor: "yellow" }}
+          >
+            Width 25%
+          </div>
+          <div
+            className="w-50 m-3 p-5 border border-danger"
+            style={{ backgroundColor: "yellow" }}
+          >
+            Width 50%
+          </div>
+          <div
+            className="w-75 m-3 p-5 border border-danger"
+            style={{ backgroundColor: "yellow" }}
+          >
+            Width 75%
+          </div>
+          <div
+            className="w-100 m-3 p-5 border border-danger"
+            style={{ backgroundColor: "yellow" }}
+          >
+            Width 100%
+          </div>
+          <div
+            className="mw-100 border-2 border border-danger"
+            style={{ backgroundColor: "green" }}
+          >
+            Max-Width 100%
+          </div>
+        </div>
+        <div className="container">
+          <h1>Position</h1>
+          {/* <div className=" border border-warning border-5"> */}
+          {/* <div className=" m-5 position-static">static by default</div>
+          <div className=" m-5 position-relative">relative</div>
+          <div className=" m-5 position-absolute">absolute</div>
+          <div className=" m-5 position-fixed">fixed</div>
+          <div className=" m-5 position-sticky">sticky</div> */}
+          {/* </div> */}
+          <div>
+            <h1>
+              SHADOWS
+              <div>
+                <div className="p-3 mb-3 bg-yellow shadow-none">NO SHADOW</div>
+                <div className="p-3 mb-3 bg-yellow shadow-sm">SMALL SHADOW</div>
+                <div className="p-3 mb-3 bg-yellow shadow">REGULAR SHADOW</div>
+                <div className="p-3 mb-3 bg-yellow shadow-lg">LARGE SHADOW</div>
+              </div>
+            </h1>
+          </div>
+        </div>
+        <div>
+          <h1>Display Property</h1>
+          {/** Display property is used to define how an element should display. The element's default property is upon type of itself. Most elements are BLOCK or INLINE */}
+          {/* BLOCK :- elements are start on the new line and takes full width available */}
+          {/* INLINE: :- elements does not start on new line and takes width as needed. WHEN WE SET THIS VALUE, THE ELEMENT DOES NOT START ON  ANEW LINE AND ONLY TAKES UP AS SMUCH WIDTH AS NECESSARY (WE CAN'T SET HEIGHT AND WIDTH))*/}
+          {/* BLOCK :- WHEN WE SET THIS VALUE, ELEMENT ALWAYS STARTS ON A NEW LINE AND TAKES UP THE FULL WIDTH AVAILABLE (WE CAN SET WIDTH AND HEIGHT) */}
+          {/* INLINE-BLOCK :- IT'S COMBINATION OF THE INLINE BLOCK VALUE, IT DOESN'T START ON NEW LINE BUT WE CAN SET HEIGHT AND WIDTH */}
+          {/* NONE :- THE ELEMENT WILL NOT BE DISPLAYED AT ALL AND HAS NO EFFECT ON LAYOUT */}
+          <div class="d-inline p-2 text-bg-primary w-50">d-inline</div>
+          <div class="d-inline p-2 text-bg-dark w-25">d-inline</div>{" "}
+          <div class=" p-2 text-bg-primary w-50">d-inline</div>
+          <div class=" p-2 text-bg-dark w-25">d-inline</div>{" "}
+          <span class="d-inline p-2 text-bg-primary w-50">d-inline</span>
+          <span class="d-inline p-2 text-bg-dark w-25">d-inline</span>{" "}
+        </div>
+        <div>
+          <h1>Embed</h1>
+          <p>
+            Create responsive video or slideshow based on the width of the
+            parent by creating an intrinsic ratio that scales on any devices
+          </p>
+          <div className="d-flex justify-content-center align-items-center">
+            <div className="embed-responsive embed-responsive-16by9">
+              <iframe
+                width="1080"
+                height="526"
+                src="https://www.youtube.com/embed/Uw_hZfH5Ukc"
+                title="9MM x LOLI SHIGURE UI"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Float</h1>
+          <p>
+            Toggles float on any element, acroos any breakpoint using the
+            responsive float utils
+          </p>
+          <div
+            className="border d-f border-warning border-2 container"
+            style={{ height: "200px" }}
+          >
+            {/* <img
+              alt={"image3"}
+              src={products[10].thumbnail}
+              className=" float-end mw-75 m-5 bg-danger"
+            />
+            <img
+              alt={"image2"}
+              src={products[9].thumbnail}
+              className="float-start mw-50 m-5 bg-primary"
+            /> */}
+            <div
+              className="float-end"
+              style={{
+                backgroundColor: "red",
+                height: "200px",
+                width: "200px",
+              }}
+            ></div>
+            <div
+              className="float-start"
+              style={{
+                backgroundColor: "green",
+                height: "200px",
+                width: "200px",
+              }}
+            ></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1>Alerts</h1>
+            <div>
+              <div className="alert alert-danger" role="alert">
+                <em>Your password is incorrect</em>
+              </div>
+              <div className="alert alert-success" role="alert">
+                <em>
+                  Your account is logged in{" "}
+                  <a className="alert-link" href="#">
+                    Click Here
+                  </a>{" "}
+                  to go to account
+                </em>
+              </div>
+              <div className="alert alert-warning" role="alert">
+                To reset password{" "}
+                <a className="alert-link" href="#">
+                  <em>Click Here</em>
+                </a>
+              </div>
+              {/* <div
+                className="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                <strong>To close it click X</strong>
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="alert"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div> */}
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                To Close click X
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Breadcrumb</h1>
+          <div className="container">
+            <nav aria-label="breadcrumb">
+              <ol className="breadcrumb">
+                <li className="breadcrumb-item">
+                  <a href="#">Home</a>
+                </li>
+                <li className="breadcrumb-item">
+                  <a href="#">Contact Us</a>
+                </li>
+                <li className="breadcrumb-item active" aria-current="page">
+                  <a href="#">Form</a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+        <div>
+          <h1>Buttons</h1>
+          <div className="column d-flex justify-content-between">
+            <button type="button" className="btn btn-primary">
+              Hello Primary
+            </button>
+            <button type="button" class="btn btn-danger">
+              Danger
+            </button>
+            <input
+              type="submit"
+              className="btn btn-success active"
+              role="button"
+              value="Submit"
+            />
+            <button
+              className="btn btn-danger btn-lg"
+              // role="button"
+              type="button"
+            >
+              Hmmm
+            </button>
+            <button
+              className="btn btn-emphasis btn-lg disabled"
+              type="button"
+              aria-disabled="true"
+            >
+              SOLD
+            </button>
+          </div>
+        </div>
+        <div>
+          <h1>Button Group</h1>
+          <div
+            role="group"
+            className="btn-group d-flex justify-content-between"
+          >
+            <button type="button" class="btn btn-outline-warning">
+              Warning
+            </button>
+            <br />
+            <button type="button" class="btn btn-outline-info">
+              Info
+            </button>
+            <br />
+            <button type="button" class="btn btn-outline-danger">
+              danger
+            </button>
+            <br />
+          </div>
+        </div>
+        <div>
+          <h1>CheckBox Button</h1>
+          <div className="container">
+            <button type="button" className="btn btn-warning btn-lg">
+              Yellow Button
+              <br></br>
+            </button>
+            <div className="btn-group-toggle" data-toggle="buttons">
+              <label className="btn btn-info">
+                <input type="checkbox" autoComplete="off" />
+                Java
+              </label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Radio Button</h1>
+          <div className="btn-group btn-group-toggle" data-toggle="buttons">
+            <label className="btn btn-success active">
+              <input
+                type="radio"
+                name="options"
+                id="option1"
+                autoComplete="off"
+                checked
+              />
+              Male
+            </label>
+            <label className="btn btn-success">
+              <input
+                type="radio"
+                name="options"
+                id="option2"
+                autoComplete="off"
+              />
+              Female
+            </label>
+          </div>
+        </div>
+        <div>
+          <h1>Button Toolbar</h1>
+          <div className="btn-toolbar" role="group">
+            <button type="button" class="btn btn-success">
+              Submit
+            </button>
+            <button type="button" class="btn btn-danger">
+              Cancel
+            </button>
+            <button type="button" class="btn btn-warning">
+              Reset
+            </button>
+          </div>
+          <div className="btn-toolbar" role="group">
+            <button type="button" class="btn btn-success">
+              Test1
+            </button>
+            <button type="button" class="btn btn-danger">
+              Hello
+            </button>
+            <button type="button" class="btn btn-warning">
+              Hi
+            </button>
+          </div>{" "}
+          <div className="btn-toolbar" role="group">
+            <button type="button" class="btn btn-success">
+              1
+            </button>
+            <button type="button" class="btn btn-danger">
+              2
+            </button>
+            <button type="button" class="btn btn-warning">
+              3
+            </button>
+          </div>
+        </div>
+        <div className="container">
+          <h1>Cards</h1>
+          <p>
+            Cards in an flexible and extensible container that contains multiple
+            varients and option
+          </p>
+          <div className="cards d-flex flex-wrap">
+            {products
+              .filter((item) => item.id >= 13 && item.id <= 20)
+              .map((item, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="card text-center"
+                    style={{ width: "18rem", margin: "1rem" }}
+                  >
+                    <img
+                      className="card-img-top"
+                      src={item.thumbnail}
+                      alt={item.id}
+                    />
+                    <div className="card-body">
+                      <h4 className="card-title">{item.title}</h4>
+                      <h5 className="card-subtitle text-body-secondary">
+                        {item.brand}
+                      </h5>
+                      <p className="card-text">{item.description}</p>
+                      <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                          {item.stock} left only
+                        </li>
+                        <li className="list-group-item">{item.rating}/5</li>
+                        <li className="list-group-item">{item.price}$</li>
+                      </ul>
+                      <a href="#" className="btn btn-primary">
+                        Buy Now
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+          <div className="card" style={{ width: "18rem" }}>
+            <div className="card-header">Features</div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">Card 1</li>
+              <li className="list-group-item">Card 2</li>
+              <li className="list-group-item">Card 3</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h1>Card Header</h1>
+          <div>
+            {products
+              .filter((item) => item.id <= 4)
+              .map((item, index) => {
+                return (
+                  <div key={index} className="card m-1">
+                    <div className="card-header">{item.brand}</div>
+                    <div className="card-body">
+                      <h5>
+                        {item.category} from {item.brand}
+                      </h5>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+        <div>
+          <h1>Card Image Overlays</h1>
+          <div className="card bg-dark text-white">
+            <img
+              className="card-img"
+              src="https://images.unsplash.com/photo-1520052205864-92d242b3a76b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="fasfsd"
+              style={{ height: "576px" }}
+            />
+            <div className="card-img-overlay text-black">
+              <h5 className="card-title">Nice View</h5>
+              <p className="card-text">The Description will be here</p>
+              <p className="card-text">Last updadted ...............</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Card Styles</h1>
+          <div className="card bg-dark text-info">
+            <div className="card-header">Finance</div>
+            <div className="card-body">
+              <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
+                nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
+                ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
+                molestie at elementum eu facilisis sed odio morbi quis. Quisque
+                non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
+                Cras adipiscing enim eu turpis egestas pretium aenean pharetra
+                magna. Viverra suspendisse potenti nullam ac tortor vitae purus
+                faucibus ornare. Mauris vitae ultricies leo integer malesuada
+                nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
+                curabitur gravida.
+              </p>
+            </div>
+          </div>
+          <div className="card bg-warning text-danger border border-5 border-success m-2">
+            <div className="card-header">Finance</div>
+            <div className="card-body">
+              <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
+                nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
+                ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
+                molestie at elementum eu facilisis sed odio morbi quis. Quisque
+                non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
+                Cras adipiscing enim eu turpis egestas pretium aenean pharetra
+                magna. Viverra suspendisse potenti nullam ac tortor vitae purus
+                faucibus ornare. Mauris vitae ultricies leo integer malesuada
+                nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
+                curabitur gravida.
+              </p>
+            </div>
+          </div>
+          <div className="card bg-transparent text-success border border-5 border-success m-2">
+            <div className="card-header">Finance</div>
+            <div className="card-body">
+              <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
+                nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
+                ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
+                molestie at elementum eu facilisis sed odio morbi quis. Quisque
+                non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
+                Cras adipiscing enim eu turpis egestas pretium aenean pharetra
+                magna. Viverra suspendisse potenti nullam ac tortor vitae purus
+                faucibus ornare. Mauris vitae ultricies leo integer malesuada
+                nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
+                curabitur gravida.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
