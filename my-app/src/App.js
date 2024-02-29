@@ -398,7 +398,7 @@ const App = () => {
 
 function Header() {
   return (
-    <header className="d-flex justify-content-center fixed-top align-items-center">
+    <header className="d-flex justify-content-center align-items-center">
       <h1>Header</h1>
     </header>
   );
@@ -1387,781 +1387,1896 @@ function Body() {
     //     </div>
     //   </div>
     // </div>
-    <div className="m-5 d-flex justify-content-center align-item-center">
-      <div>
-        <h1>Day 06</h1>
-        <div>
-          <h1>Figures</h1>
-          <div>
-            <figure className="figure">
-              <img
-                src={products[10].thumbnail}
-                className="figure-img img-fluid rounded"
-                alt="A generic square placeholder with rounded corners in a figure."
-              />
-              <figcaption className="figure-caption text-center">
-                A Bird
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div>
-          <h1> Colors</h1>
-          <div>
-            <h1 className="text-primary">Blue</h1>
-            <h1 className="text-danger">Red</h1>
-            <h1 className="text-warning">Yellow</h1>
-            <h1 className="text-emphasis">Emphasis</h1>
-            <h1 className="text-dark">Black Or Dark</h1>
-            <h1 className="text-muted">Muted</h1>
-          </div>
-        </div>
-        <div>
-          <h1>Borders</h1>
-          <div>
-            <div
-              className="border border-top border-warning border-5 m-2"
-              style={{ height: "200px" }}
-            ></div>
-            <div
-              className="border-warning border border-5 m-2"
-              style={{ height: "200px" }}
-            ></div>
-            <div
-              className="border-top border-5 border-info m-2"
-              style={{ height: "200px" }}
-            >
-              BORDER-TOP
-            </div>
-            <div
-              className="border-end border-5 border-success m-2"
-              style={{ height: "200px" }}
-            >
-              BORDER-END
-            </div>
-            <div
-              className="border-bottom border-5 border-danger m-2"
-              style={{ height: "200px" }}
-            >
-              BORDER-BOTTOM
-            </div>
-            <div
-              className="border-start border-5 border-secondary m-2"
-              style={{ height: "200px" }}
-            >
-              BORDER-START
-            </div>
-            <img
-              src={products[16].thumbnail}
-              className="rounded-circle"
-              alt="1"
-            />
-            <img src={products[16].thumbnail} className="" alt="2" />
-          </div>
-        </div>
-        <div>
-          <h1>Text</h1>
-          <div>
-            <h1>Normal</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
-              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
-              felis eget velit aliquet. Ultrices neque ornare aenean euismod
-              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
-              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
-              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
-              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
-              ac orci phasellus egestas tellus. Aliquam etiam erat velit
-              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
-              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
-              ullamcorper. Id velit ut tortor pretium viverra suspendisse
-              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
-              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
-              Consectetur lorem donec massa sapien faucibus et molestie ac.
-              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
-              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
-              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
-              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
-              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
-              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
-              et netus et malesuada fames ac. Est velit egestas dui id ornare
-              arcu odio ut sem. Tellus id interdum velit laoreet id donec
-              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
-              mauris in aliquam sem. Dolor purus non enim praesent elementum.
-              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
-              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
-              senectus et netus et malesuada fames ac. Elementum curabitur vitae
-              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
-              ut eu sem integer vitae.
-            </p>{" "}
-            <h1>justify</h1>
-            <p className="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
-              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
-              felis eget velit aliquet. Ultrices neque ornare aenean euismod
-              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
-              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
-              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
-              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
-              ac orci phasellus egestas tellus. Aliquam etiam erat velit
-              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
-              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
-              ullamcorper. Id velit ut tortor pretium viverra suspendisse
-              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
-              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
-              Consectetur lorem donec massa sapien faucibus et molestie ac.
-              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
-              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
-              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
-              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
-              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
-              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
-              et netus et malesuada fames ac. Est velit egestas dui id ornare
-              arcu odio ut sem. Tellus id interdum velit laoreet id donec
-              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
-              mauris in aliquam sem. Dolor purus non enim praesent elementum.
-              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
-              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
-              senectus et netus et malesuada fames ac. Elementum curabitur vitae
-              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
-              ut eu sem integer vitae.
-            </p>{" "}
-            <h1>left</h1>
-            <p className="text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
-              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
-              felis eget velit aliquet. Ultrices neque ornare aenean euismod
-              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
-              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
-              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
-              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
-              ac orci phasellus egestas tellus. Aliquam etiam erat velit
-              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
-              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
-              ullamcorper. Id velit ut tortor pretium viverra suspendisse
-              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
-              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
-              Consectetur lorem donec massa sapien faucibus et molestie ac.
-              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
-              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
-              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
-              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
-              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
-              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
-              et netus et malesuada fames ac. Est velit egestas dui id ornare
-              arcu odio ut sem. Tellus id interdum velit laoreet id donec
-              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
-              mauris in aliquam sem. Dolor purus non enim praesent elementum.
-              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
-              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
-              senectus et netus et malesuada fames ac. Elementum curabitur vitae
-              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
-              ut eu sem integer vitae.
-            </p>
-            <h1>right</h1>
-            <p className="text-right">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
-              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
-              felis eget velit aliquet. Ultrices neque ornare aenean euismod
-              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
-              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
-              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
-              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
-              ac orci phasellus egestas tellus. Aliquam etiam erat velit
-              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
-              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
-              ullamcorper. Id velit ut tortor pretium viverra suspendisse
-              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
-              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
-              Consectetur lorem donec massa sapien faucibus et molestie ac.
-              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
-              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
-              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
-              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
-              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
-              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
-              et netus et malesuada fames ac. Est velit egestas dui id ornare
-              arcu odio ut sem. Tellus id interdum velit laoreet id donec
-              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
-              mauris in aliquam sem. Dolor purus non enim praesent elementum.
-              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
-              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
-              senectus et netus et malesuada fames ac. Elementum curabitur vitae
-              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
-              ut eu sem integer vitae.
-            </p>
-            <h1>center</h1>
-            <p className="text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-              vitae ultricies leo integer malesuada nunc vel risus. Curabitur
-              vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
-              felis eget velit aliquet. Ultrices neque ornare aenean euismod
-              elementum nisi quis eleifend. Urna nec tincidunt praesent semper
-              feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
-              amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
-              in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
-              ac orci phasellus egestas tellus. Aliquam etiam erat velit
-              scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
-              sagittis orci. Tincidunt nunc pulvinar sapien et ligula
-              ullamcorper. Id velit ut tortor pretium viverra suspendisse
-              potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
-              Et malesuada fames ac turpis egestas maecenas pharetra convallis.
-              Consectetur lorem donec massa sapien faucibus et molestie ac.
-              Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
-              euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
-              Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
-              vitae auctor eu augue ut lectus. Neque gravida in fermentum et
-              sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
-              Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
-              et netus et malesuada fames ac. Est velit egestas dui id ornare
-              arcu odio ut sem. Tellus id interdum velit laoreet id donec
-              ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
-              mauris in aliquam sem. Dolor purus non enim praesent elementum.
-              Dignissim sodales ut eu sem. Vitae purus faucibus ornare
-              suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
-              senectus et netus et malesuada fames ac. Elementum curabitur vitae
-              nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
-              ut eu sem integer vitae.
-            </p>
-          </div>
-        </div>
-        <div className="container">
-          <h1>Spacing</h1>
-          <div className="border border-primary border-1">
-            <div className="border border-3 border-danger m-3 p-3 bg-warning">
-              MARGIN 16PX and PADDING 16PX
-            </div>
-            <div className="border border-3 border-danger m-5 p-5 bg-warning">
-              MARGIN 48PX and PADDING 48PX
-            </div>
-            <div
-              className="border border-3 border-danger mx-auto bg-warning"
-              style={{ width: "200px" }}
-            >
-              <h2>Centered auto</h2>
-            </div>
-          </div>
-        </div>
-        <div className="border border-2 border-warning m-3">
-          <h1>Vertical Alignment</h1>
-          <p>Used only in inline element</p>
-          {/* {alignClasses.map((ele, index) => {
-            return (
-              <span
-                className={`${ele} border border-warning m-3`}
-                style={{ height: "" }}
-              >
-              </span>
-            );
-          })} */}
-          <span className="border border-warning m-3 align-baseline">
-            Baseline
-          </span>
-          <span className="border border-warning m-3 align-top">Tope</span>
-          <span className="border border-warning m-3 align-bottom">Bottom</span>
-          <span className="border border-warning m-3 align-text-pop">
-            Text-Pop
-          </span>
-          <span className="border border-warning m-3 align-middle">Middle</span>
-          <span className="border border-warning m-3 align-baseline">
-            Baseline
-          </span>
-          <table className="table table-bordered">
-            <tbody className="border border-2" style={{ height: "200px" }}>
-              <td className=" m-3 align-baseline">Baseline</td>
-              <td className=" m-3 align-top">Top</td>
-              <td className=" m-3 align-bottom">Bottom</td>
-              <td className=" m-3 align-text-pop">Text-Pop</td>
-              <td className=" m-3 align-middle">Middle</td>
-            </tbody>
-          </table>
+    // <div className="m-5 d-flex justify-content-center align-item-center">
+    //   <div>
+    //     <h1>Day 06</h1>
+    //     <div>
+    //       <h1>Figures</h1>
+    //       <div>
+    //         <figure className="figure">
+    //           <img
+    //             src={products[10].thumbnail}
+    //             className="figure-img img-fluid rounded"
+    //             alt="A generic square placeholder with rounded corners in a figure."
+    //           />
+    //           <figcaption className="figure-caption text-center">
+    //             A Bird
+    //           </figcaption>
+    //         </figure>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1> Colors</h1>
+    //       <div>
+    //         <h1 className="text-primary">Blue</h1>
+    //         <h1 className="text-danger">Red</h1>
+    //         <h1 className="text-warning">Yellow</h1>
+    //         <h1 className="text-emphasis">Emphasis</h1>
+    //         <h1 className="text-dark">Black Or Dark</h1>
+    //         <h1 className="text-muted">Muted</h1>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Borders</h1>
+    //       <div>
+    //         <div
+    //           className="border border-top border-warning border-5 m-2"
+    //           style={{ height: "200px" }}
+    //         ></div>
+    //         <div
+    //           className="border-warning border border-5 m-2"
+    //           style={{ height: "200px" }}
+    //         ></div>
+    //         <div
+    //           className="border-top border-5 border-info m-2"
+    //           style={{ height: "200px" }}
+    //         >
+    //           BORDER-TOP
+    //         </div>
+    //         <div
+    //           className="border-end border-5 border-success m-2"
+    //           style={{ height: "200px" }}
+    //         >
+    //           BORDER-END
+    //         </div>
+    //         <div
+    //           className="border-bottom border-5 border-danger m-2"
+    //           style={{ height: "200px" }}
+    //         >
+    //           BORDER-BOTTOM
+    //         </div>
+    //         <div
+    //           className="border-start border-5 border-secondary m-2"
+    //           style={{ height: "200px" }}
+    //         >
+    //           BORDER-START
+    //         </div>
+    //         <img
+    //           src={products[16].thumbnail}
+    //           className="rounded-circle"
+    //           alt="1"
+    //         />
+    //         <img src={products[16].thumbnail} className="" alt="2" />
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Text</h1>
+    //       <div>
+    //         <h1>Normal</h1>
+    //         <p>
+    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //           eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+    //           vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+    //           vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+    //           felis eget velit aliquet. Ultrices neque ornare aenean euismod
+    //           elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+    //           feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+    //           amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+    //           in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+    //           ac orci phasellus egestas tellus. Aliquam etiam erat velit
+    //           scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+    //           sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+    //           ullamcorper. Id velit ut tortor pretium viverra suspendisse
+    //           potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+    //           Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+    //           Consectetur lorem donec massa sapien faucibus et molestie ac.
+    //           Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+    //           euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+    //           Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+    //           vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+    //           sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+    //           Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+    //           et netus et malesuada fames ac. Est velit egestas dui id ornare
+    //           arcu odio ut sem. Tellus id interdum velit laoreet id donec
+    //           ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+    //           mauris in aliquam sem. Dolor purus non enim praesent elementum.
+    //           Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+    //           suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+    //           senectus et netus et malesuada fames ac. Elementum curabitur vitae
+    //           nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+    //           ut eu sem integer vitae.
+    //         </p>{" "}
+    //         <h1>justify</h1>
+    //         <p className="text-justify">
+    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //           eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+    //           vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+    //           vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+    //           felis eget velit aliquet. Ultrices neque ornare aenean euismod
+    //           elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+    //           feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+    //           amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+    //           in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+    //           ac orci phasellus egestas tellus. Aliquam etiam erat velit
+    //           scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+    //           sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+    //           ullamcorper. Id velit ut tortor pretium viverra suspendisse
+    //           potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+    //           Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+    //           Consectetur lorem donec massa sapien faucibus et molestie ac.
+    //           Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+    //           euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+    //           Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+    //           vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+    //           sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+    //           Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+    //           et netus et malesuada fames ac. Est velit egestas dui id ornare
+    //           arcu odio ut sem. Tellus id interdum velit laoreet id donec
+    //           ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+    //           mauris in aliquam sem. Dolor purus non enim praesent elementum.
+    //           Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+    //           suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+    //           senectus et netus et malesuada fames ac. Elementum curabitur vitae
+    //           nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+    //           ut eu sem integer vitae.
+    //         </p>{" "}
+    //         <h1>left</h1>
+    //         <p className="text-left">
+    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //           eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+    //           vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+    //           vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+    //           felis eget velit aliquet. Ultrices neque ornare aenean euismod
+    //           elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+    //           feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+    //           amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+    //           in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+    //           ac orci phasellus egestas tellus. Aliquam etiam erat velit
+    //           scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+    //           sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+    //           ullamcorper. Id velit ut tortor pretium viverra suspendisse
+    //           potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+    //           Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+    //           Consectetur lorem donec massa sapien faucibus et molestie ac.
+    //           Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+    //           euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+    //           Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+    //           vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+    //           sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+    //           Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+    //           et netus et malesuada fames ac. Est velit egestas dui id ornare
+    //           arcu odio ut sem. Tellus id interdum velit laoreet id donec
+    //           ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+    //           mauris in aliquam sem. Dolor purus non enim praesent elementum.
+    //           Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+    //           suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+    //           senectus et netus et malesuada fames ac. Elementum curabitur vitae
+    //           nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+    //           ut eu sem integer vitae.
+    //         </p>
+    //         <h1>right</h1>
+    //         <p className="text-right">
+    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //           eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+    //           vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+    //           vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+    //           felis eget velit aliquet. Ultrices neque ornare aenean euismod
+    //           elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+    //           feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+    //           amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+    //           in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+    //           ac orci phasellus egestas tellus. Aliquam etiam erat velit
+    //           scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+    //           sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+    //           ullamcorper. Id velit ut tortor pretium viverra suspendisse
+    //           potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+    //           Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+    //           Consectetur lorem donec massa sapien faucibus et molestie ac.
+    //           Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+    //           euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+    //           Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+    //           vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+    //           sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+    //           Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+    //           et netus et malesuada fames ac. Est velit egestas dui id ornare
+    //           arcu odio ut sem. Tellus id interdum velit laoreet id donec
+    //           ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+    //           mauris in aliquam sem. Dolor purus non enim praesent elementum.
+    //           Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+    //           suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+    //           senectus et netus et malesuada fames ac. Elementum curabitur vitae
+    //           nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+    //           ut eu sem integer vitae.
+    //         </p>
+    //         <h1>center</h1>
+    //         <p className="text-center">
+    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //           eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+    //           vitae ultricies leo integer malesuada nunc vel risus. Curabitur
+    //           vitae nunc sed velit dignissim sodales ut. Nibh venenatis cras sed
+    //           felis eget velit aliquet. Ultrices neque ornare aenean euismod
+    //           elementum nisi quis eleifend. Urna nec tincidunt praesent semper
+    //           feugiat nibh sed pulvinar proin. Nibh praesent tristique magna sit
+    //           amet purus. Tellus integer feugiat scelerisque varius morbi. Purus
+    //           in massa tempor nec. Cras pulvinar mattis nunc sed. Sollicitudin
+    //           ac orci phasellus egestas tellus. Aliquam etiam erat velit
+    //           scelerisque in dictum non. Posuere sollicitudin aliquam ultrices
+    //           sagittis orci. Tincidunt nunc pulvinar sapien et ligula
+    //           ullamcorper. Id velit ut tortor pretium viverra suspendisse
+    //           potenti nullam ac. Nibh ipsum consequat nisl vel pretium lectus.
+    //           Et malesuada fames ac turpis egestas maecenas pharetra convallis.
+    //           Consectetur lorem donec massa sapien faucibus et molestie ac.
+    //           Varius vel pharetra vel turpis nunc eget lorem dolor sed. Cursus
+    //           euismod quis viverra nibh cras. Viverra nibh cras pulvinar mattis.
+    //           Mattis rhoncus urna neque viverra. Nisi scelerisque eu ultrices
+    //           vitae auctor eu augue ut lectus. Neque gravida in fermentum et
+    //           sollicitudin. Eget arcu dictum varius duis at consectetur lorem.
+    //           Vitae tortor condimentum lacinia quis vel eros. Tristique senectus
+    //           et netus et malesuada fames ac. Est velit egestas dui id ornare
+    //           arcu odio ut sem. Tellus id interdum velit laoreet id donec
+    //           ultrices tincidunt arcu. Urna cursus eget nunc scelerisque viverra
+    //           mauris in aliquam sem. Dolor purus non enim praesent elementum.
+    //           Dignissim sodales ut eu sem. Vitae purus faucibus ornare
+    //           suspendisse sed nisi lacus sed viverra. Habitant morbi tristique
+    //           senectus et netus et malesuada fames ac. Elementum curabitur vitae
+    //           nunc sed velit dignissim sodales ut. Sed velit dignissim sodales
+    //           ut eu sem integer vitae.
+    //         </p>
+    //       </div>
+    //     </div>
+    //     <div className="container">
+    //       <h1>Spacing</h1>
+    //       <div className="border border-primary border-1">
+    //         <div className="border border-3 border-danger m-3 p-3 bg-warning">
+    //           MARGIN 16PX and PADDING 16PX
+    //         </div>
+    //         <div className="border border-3 border-danger m-5 p-5 bg-warning">
+    //           MARGIN 48PX and PADDING 48PX
+    //         </div>
+    //         <div
+    //           className="border border-3 border-danger mx-auto bg-warning"
+    //           style={{ width: "200px" }}
+    //         >
+    //           <h2>Centered auto</h2>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div className="border border-2 border-warning m-3">
+    //       <h1>Vertical Alignment</h1>
+    //       <p>Used only in inline element</p>
+    //       {/* {alignClasses.map((ele, index) => {
+    //         return (
+    //           <span
+    //             className={`${ele} border border-warning m-3`}
+    //             style={{ height: "" }}
+    //           >
+    //           </span>
+    //         );
+    //       })} */}
+    //       <span className="border border-warning m-3 align-baseline">
+    //         Baseline
+    //       </span>
+    //       <span className="border border-warning m-3 align-top">Tope</span>
+    //       <span className="border border-warning m-3 align-bottom">Bottom</span>
+    //       <span className="border border-warning m-3 align-text-pop">
+    //         Text-Pop
+    //       </span>
+    //       <span className="border border-warning m-3 align-middle">Middle</span>
+    //       <span className="border border-warning m-3 align-baseline">
+    //         Baseline
+    //       </span>
+    //       <table className="table table-bordered">
+    //         <tbody className="border border-2" style={{ height: "200px" }}>
+    //           <td className=" m-3 align-baseline">Baseline</td>
+    //           <td className=" m-3 align-top">Top</td>
+    //           <td className=" m-3 align-bottom">Bottom</td>
+    //           <td className=" m-3 align-text-pop">Text-Pop</td>
+    //           <td className=" m-3 align-middle">Middle</td>
+    //         </tbody>
+    //       </table>
 
-          <div></div>
-        </div>
+    //       <div></div>
+    //     </div>
+    //     <div>
+    //       <h1>Visibility</h1>
+    //       <p>Used to hide or show the element</p>
+    //       <h2 className="visible">VISIBLE</h2>
+    //       <h2 className="invisible">INVISIBLE</h2>
+    //     </div>
+    //     <div>
+    //       <h1>Sizing</h1>
+    //       <div
+    //         className="w-25 m-3 p-5 border border-danger"
+    //         style={{ backgroundColor: "yellow" }}
+    //       >
+    //         Width 25%
+    //       </div>
+    //       <div
+    //         className="w-50 m-3 p-5 border border-danger"
+    //         style={{ backgroundColor: "yellow" }}
+    //       >
+    //         Width 50%
+    //       </div>
+    //       <div
+    //         className="w-75 m-3 p-5 border border-danger"
+    //         style={{ backgroundColor: "yellow" }}
+    //       >
+    //         Width 75%
+    //       </div>
+    //       <div
+    //         className="w-100 m-3 p-5 border border-danger"
+    //         style={{ backgroundColor: "yellow" }}
+    //       >
+    //         Width 100%
+    //       </div>
+    //       <div
+    //         className="mw-100 border-2 border border-danger"
+    //         style={{ backgroundColor: "green" }}
+    //       >
+    //         Max-Width 100%
+    //       </div>
+    //     </div>
+    //     <div className="container">
+    //       <h1>Position</h1>
+    //       {/* <div className=" border border-warning border-5"> */}
+    //       {/* <div className=" m-5 position-static">static by default</div>
+    //       <div className=" m-5 position-relative">relative</div>
+    //       <div className=" m-5 position-absolute">absolute</div>
+    //       <div className=" m-5 position-fixed">fixed</div>
+    //       <div className=" m-5 position-sticky">sticky</div> */}
+    //       {/* </div> */}
+    //       <div>
+    //         <h1>
+    //           SHADOWS
+    //           <div>
+    //             <div className="p-3 mb-3 bg-yellow shadow-none">NO SHADOW</div>
+    //             <div className="p-3 mb-3 bg-yellow shadow-sm">SMALL SHADOW</div>
+    //             <div className="p-3 mb-3 bg-yellow shadow">REGULAR SHADOW</div>
+    //             <div className="p-3 mb-3 bg-yellow shadow-lg">LARGE SHADOW</div>
+    //           </div>
+    //         </h1>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Display Property</h1>
+    //       {/** Display property is used to define how an element should display. The element's default property is upon type of itself. Most elements are BLOCK or INLINE */}
+    //       {/* BLOCK :- elements are start on the new line and takes full width available */}
+    //       {/* INLINE: :- elements does not start on new line and takes width as needed. WHEN WE SET THIS VALUE, THE ELEMENT DOES NOT START ON  ANEW LINE AND ONLY TAKES UP AS SMUCH WIDTH AS NECESSARY (WE CAN'T SET HEIGHT AND WIDTH))*/}
+    //       {/* BLOCK :- WHEN WE SET THIS VALUE, ELEMENT ALWAYS STARTS ON A NEW LINE AND TAKES UP THE FULL WIDTH AVAILABLE (WE CAN SET WIDTH AND HEIGHT) */}
+    //       {/* INLINE-BLOCK :- IT'S COMBINATION OF THE INLINE BLOCK VALUE, IT DOESN'T START ON NEW LINE BUT WE CAN SET HEIGHT AND WIDTH */}
+    //       {/* NONE :- THE ELEMENT WILL NOT BE DISPLAYED AT ALL AND HAS NO EFFECT ON LAYOUT */}
+    //       <div class="d-inline p-2 text-bg-primary w-50">d-inline</div>
+    //       <div class="d-inline p-2 text-bg-dark w-25">d-inline</div>{" "}
+    //       <div class=" p-2 text-bg-primary w-50">d-inline</div>
+    //       <div class=" p-2 text-bg-dark w-25">d-inline</div>{" "}
+    //       <span class="d-inline p-2 text-bg-primary w-50">d-inline</span>
+    //       <span class="d-inline p-2 text-bg-dark w-25">d-inline</span>{" "}
+    //     </div>
+    //     <div>
+    //       <h1>Embed</h1>
+    //       <p>
+    //         Create responsive video or slideshow based on the width of the
+    //         parent by creating an intrinsic ratio that scales on any devices
+    //       </p>
+    //       <div className="d-flex justify-content-center align-items-center">
+    //         <div className="embed-responsive embed-responsive-16by9">
+    //           <iframe
+    //             width="1080"
+    //             height="526"
+    //             src="https://www.youtube.com/embed/Uw_hZfH5Ukc"
+    //             title="9MM x LOLI SHIGURE UI"
+    //             frameborder="0"
+    //             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    //             allowfullscreen
+    //           ></iframe>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Float</h1>
+    //       <p>
+    //         Toggles float on any element, acroos any breakpoint using the
+    //         responsive float utils
+    //       </p>
+    //       <div
+    //         className="border d-f border-warning border-2 container"
+    //         style={{ height: "200px" }}
+    //       >
+    //         {/* <img
+    //           alt={"image3"}
+    //           src={products[10].thumbnail}
+    //           className=" float-end mw-75 m-5 bg-danger"
+    //         />
+    //         <img
+    //           alt={"image2"}
+    //           src={products[9].thumbnail}
+    //           className="float-start mw-50 m-5 bg-primary"
+    //         /> */}
+    //         <div
+    //           className="float-end"
+    //           style={{
+    //             backgroundColor: "red",
+    //             height: "200px",
+    //             width: "200px",
+    //           }}
+    //         ></div>
+    //         <div
+    //           className="float-start"
+    //           style={{
+    //             backgroundColor: "green",
+    //             height: "200px",
+    //             width: "200px",
+    //           }}
+    //         ></div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <div>
+    //         <h1>Alerts</h1>
+    //         <div>
+    //           <div className="alert alert-danger" role="alert">
+    //             <em>Your password is incorrect</em>
+    //           </div>
+    //           <div className="alert alert-success" role="alert">
+    //             <em>
+    //               Your account is logged in{" "}
+    //               <a className="alert-link" href="#">
+    //                 Click Here
+    //               </a>{" "}
+    //               to go to account
+    //             </em>
+    //           </div>
+    //           <div className="alert alert-warning" role="alert">
+    //             To reset password{" "}
+    //             <a className="alert-link" href="#">
+    //               <em>Click Here</em>
+    //             </a>
+    //           </div>
+    //           {/* <div
+    //             className="alert alert-warning alert-dismissible fade show"
+    //             role="alert"
+    //           >
+    //             <strong>To close it click X</strong>
+    //             <button
+    //               type="button"
+    //               className="close"
+    //               data-dismiss="alert"
+    //               aria-label="Close"
+    //             >
+    //               <span aria-hidden="true">&times;</span>
+    //             </button>
+    //           </div> */}
+    //           <div
+    //             class="alert alert-warning alert-dismissible fade show"
+    //             role="alert"
+    //           >
+    //             To Close click X
+    //             <button
+    //               type="button"
+    //               class="btn-close"
+    //               data-bs-dismiss="alert"
+    //               aria-label="Close"
+    //             ></button>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Breadcrumb</h1>
+    //       <div className="container">
+    //         <nav aria-label="breadcrumb">
+    //           <ol className="breadcrumb">
+    //             <li className="breadcrumb-item">
+    //               <a href="#">Home</a>
+    //             </li>
+    //             <li className="breadcrumb-item">
+    //               <a href="#">Contact Us</a>
+    //             </li>
+    //             <li className="breadcrumb-item active" aria-current="page">
+    //               <a href="#">Form</a>
+    //             </li>
+    //           </ol>
+    //         </nav>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Buttons</h1>
+    //       <div className="column d-flex justify-content-between">
+    //         <button type="button" className="btn btn-primary">
+    //           Hello Primary
+    //         </button>
+    //         <button type="button" class="btn btn-danger">
+    //           Danger
+    //         </button>
+    //         <input
+    //           type="submit"
+    //           className="btn btn-success active"
+    //           role="button"
+    //           value="Submit"
+    //         />
+    //         <button
+    //           className="btn btn-danger btn-lg"
+    //           // role="button"
+    //           type="button"
+    //         >
+    //           Hmmm
+    //         </button>
+    //         <button
+    //           className="btn btn-emphasis btn-lg disabled"
+    //           type="button"
+    //           aria-disabled="true"
+    //         >
+    //           SOLD
+    //         </button>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Button Group</h1>
+    //       <div
+    //         role="group"
+    //         className="btn-group d-flex justify-content-between"
+    //       >
+    //         <button type="button" class="btn btn-outline-warning">
+    //           Warning
+    //         </button>
+    //         <br />
+    //         <button type="button" class="btn btn-outline-info">
+    //           Info
+    //         </button>
+    //         <br />
+    //         <button type="button" class="btn btn-outline-danger">
+    //           danger
+    //         </button>
+    //         <br />
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>CheckBox Button</h1>
+    //       <div className="container">
+    //         <button type="button" className="btn btn-warning btn-lg">
+    //           Yellow Button
+    //           <br/></br>
+    //         </button>
+    //         <div className="btn-group-toggle" data-toggle="buttons">
+    //           <label className="btn btn-info">
+    //             <input type="checkbox" autoComplete="off" />
+    //             Java
+    //           </label>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Radio Button</h1>
+    //       <div className="btn-group btn-group-toggle" data-toggle="buttons">
+    //         <label className="btn btn-success active">
+    //           <input
+    //             type="radio"
+    //             name="options"
+    //             id="option1"
+    //             autoComplete="off"
+    //             checked
+    //           />
+    //           Male
+    //         </label>
+    //         <label className="btn btn-success">
+    //           <input
+    //             type="radio"
+    //             name="options"
+    //             id="option2"
+    //             autoComplete="off"
+    //           />
+    //           Female
+    //         </label>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Button Toolbar</h1>
+    //       <div className="btn-toolbar" role="group">
+    //         <button type="button" class="btn btn-success">
+    //           Submit
+    //         </button>
+    //         <button type="button" class="btn btn-danger">
+    //           Cancel
+    //         </button>
+    //         <button type="button" class="btn btn-warning">
+    //           Reset
+    //         </button>
+    //       </div>
+    //       <div className="btn-toolbar" role="group">
+    //         <button type="button" class="btn btn-success">
+    //           Test1
+    //         </button>
+    //         <button type="button" class="btn btn-danger">
+    //           Hello
+    //         </button>
+    //         <button type="button" class="btn btn-warning">
+    //           Hi
+    //         </button>
+    //       </div>{" "}
+    //       <div className="btn-toolbar" role="group">
+    //         <button type="button" class="btn btn-success">
+    //           1
+    //         </button>
+    //         <button type="button" class="btn btn-danger">
+    //           2
+    //         </button>
+    //         <button type="button" class="btn btn-warning">
+    //           3
+    //         </button>
+    //       </div>
+    //     </div>
+    //     <div className="container">
+    //       <h1>Cards</h1>
+    //       <p>
+    //         Cards in an flexible and extensible container that contains multiple
+    //         varients and option
+    //       </p>
+    //       <div className="cards d-flex flex-wrap">
+    //         {products
+    //           .filter((item) => item.id >= 13 && item.id <= 20)
+    //           .map((item, index) => {
+    //             return (
+    //               <div
+    //                 key={index}
+    //                 className="card text-center"
+    //                 style={{ width: "18rem", margin: "1rem" }}
+    //               >
+    //                 <img
+    //                   className="card-img-top"
+    //                   src={item.thumbnail}
+    //                   alt={item.id}
+    //                 />
+    //                 <div className="card-body">
+    //                   <h4 className="card-title">{item.title}</h4>
+    //                   <h5 className="card-subtitle text-body-secondary">
+    //                     {item.brand}
+    //                   </h5>
+    //                   <p className="card-text">{item.description}</p>
+    //                   <ul className="list-group list-group-flush">
+    //                     <li className="list-group-item">
+    //                       {item.stock} left only
+    //                     </li>
+    //                     <li className="list-group-item">{item.rating}/5</li>
+    //                     <li className="list-group-item">{item.price}$</li>
+    //                   </ul>
+    //                   <a href="#" className="btn btn-primary">
+    //                     Buy Now
+    //                   </a>
+    //                 </div>
+    //               </div>
+    //             );
+    //           })}
+    //       </div>
+    //       <div className="card" style={{ width: "18rem" }}>
+    //         <div className="card-header">Features</div>
+    //         <ul className="list-group list-group-flush">
+    //           <li className="list-group-item">Card 1</li>
+    //           <li className="list-group-item">Card 2</li>
+    //           <li className="list-group-item">Card 3</li>
+    //         </ul>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Card Header</h1>
+    //       <div>
+    //         {products
+    //           .filter((item) => item.id <= 4)
+    //           .map((item, index) => {
+    //             return (
+    //               <div key={index} className="card m-1">
+    //                 <div className="card-header">{item.brand}</div>
+    //                 <div className="card-body">
+    //                   <h5>
+    //                     {item.category} from {item.brand}
+    //                   </h5>
+    //                 </div>
+    //               </div>
+    //             );
+    //           })}
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Card Image Overlays</h1>
+    //       <div className="card bg-dark text-white">
+    //         <img
+    //           className="card-img"
+    //           src="https://images.unsplash.com/photo-1520052205864-92d242b3a76b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    //           alt="fasfsd"
+    //           style={{ height: "576px" }}
+    //         />
+    //         <div className="card-img-overlay text-black">
+    //           <h5 className="card-title">Nice View</h5>
+    //           <p className="card-text">The Description will be here</p>
+    //           <p className="card-text">Last updadted ...............</p>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Card Styles</h1>
+    //       <div className="card bg-dark text-info">
+    //         <div className="card-header">Finance</div>
+    //         <div className="card-body">
+    //           <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
+    //           <p className="card-text">
+    //             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //             eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    //             Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
+    //             nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
+    //             ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
+    //             molestie at elementum eu facilisis sed odio morbi quis. Quisque
+    //             non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
+    //             Cras adipiscing enim eu turpis egestas pretium aenean pharetra
+    //             magna. Viverra suspendisse potenti nullam ac tortor vitae purus
+    //             faucibus ornare. Mauris vitae ultricies leo integer malesuada
+    //             nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
+    //             curabitur gravida.
+    //           </p>
+    //         </div>
+    //       </div>
+    //       <div className="card bg-warning text-danger border border-5 border-success m-2">
+    //         <div className="card-header">Finance</div>
+    //         <div className="card-body">
+    //           <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
+    //           <p className="card-text">
+    //             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //             eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    //             Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
+    //             nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
+    //             ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
+    //             molestie at elementum eu facilisis sed odio morbi quis. Quisque
+    //             non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
+    //             Cras adipiscing enim eu turpis egestas pretium aenean pharetra
+    //             magna. Viverra suspendisse potenti nullam ac tortor vitae purus
+    //             faucibus ornare. Mauris vitae ultricies leo integer malesuada
+    //             nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
+    //             curabitur gravida.
+    //           </p>
+    //         </div>
+    //       </div>
+    //       <div className="card bg-transparent text-success border border-5 border-success m-2">
+    //         <div className="card-header">Finance</div>
+    //         <div className="card-body">
+    //           <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
+    //           <p className="card-text">
+    //             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    //             eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    //             Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
+    //             nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
+    //             ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
+    //             molestie at elementum eu facilisis sed odio morbi quis. Quisque
+    //             non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
+    //             Cras adipiscing enim eu turpis egestas pretium aenean pharetra
+    //             magna. Viverra suspendisse potenti nullam ac tortor vitae purus
+    //             faucibus ornare. Mauris vitae ultricies leo integer malesuada
+    //             nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
+    //             curabitur gravida.
+    //           </p>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+    <div>
+      <div className="m-3">
+        <h1> Day 07</h1>
         <div>
-          <h1>Visibility</h1>
-          <p>Used to hide or show the element</p>
-          <h2 className="visible">VISIBLE</h2>
-          <h2 className="invisible">INVISIBLE</h2>
-        </div>
-        <div>
-          <h1>Sizing</h1>
-          <div
-            className="w-25 m-3 p-5 border border-danger"
-            style={{ backgroundColor: "yellow" }}
-          >
-            Width 25%
-          </div>
-          <div
-            className="w-50 m-3 p-5 border border-danger"
-            style={{ backgroundColor: "yellow" }}
-          >
-            Width 50%
-          </div>
-          <div
-            className="w-75 m-3 p-5 border border-danger"
-            style={{ backgroundColor: "yellow" }}
-          >
-            Width 75%
-          </div>
-          <div
-            className="w-100 m-3 p-5 border border-danger"
-            style={{ backgroundColor: "yellow" }}
-          >
-            Width 100%
-          </div>
-          <div
-            className="mw-100 border-2 border border-danger"
-            style={{ backgroundColor: "green" }}
-          >
-            Max-Width 100%
-          </div>
-        </div>
-        <div className="container">
-          <h1>Position</h1>
-          {/* <div className=" border border-warning border-5"> */}
-          {/* <div className=" m-5 position-static">static by default</div>
-          <div className=" m-5 position-relative">relative</div>
-          <div className=" m-5 position-absolute">absolute</div>
-          <div className=" m-5 position-fixed">fixed</div>
-          <div className=" m-5 position-sticky">sticky</div> */}
-          {/* </div> */}
-          <div>
-            <h1>
-              SHADOWS
-              <div>
-                <div className="p-3 mb-3 bg-yellow shadow-none">NO SHADOW</div>
-                <div className="p-3 mb-3 bg-yellow shadow-sm">SMALL SHADOW</div>
-                <div className="p-3 mb-3 bg-yellow shadow">REGULAR SHADOW</div>
-                <div className="p-3 mb-3 bg-yellow shadow-lg">LARGE SHADOW</div>
+          <h2>Card Group</h2>
+          <div className="card-group ">
+            <div className="card text-white bg-primary">
+              <img
+                className="card-img-top"
+                alt="img"
+                src={products[7].thumbnail}
+              />
+              <div className="card-body">
+                <h3 className="card-text">{products[7].title}</h3>
+                <p className="card-text">{products[7].description}</p>
               </div>
-            </h1>
-          </div>
-        </div>
-        <div>
-          <h1>Display Property</h1>
-          {/** Display property is used to define how an element should display. The element's default property is upon type of itself. Most elements are BLOCK or INLINE */}
-          {/* BLOCK :- elements are start on the new line and takes full width available */}
-          {/* INLINE: :- elements does not start on new line and takes width as needed. WHEN WE SET THIS VALUE, THE ELEMENT DOES NOT START ON  ANEW LINE AND ONLY TAKES UP AS SMUCH WIDTH AS NECESSARY (WE CAN'T SET HEIGHT AND WIDTH))*/}
-          {/* BLOCK :- WHEN WE SET THIS VALUE, ELEMENT ALWAYS STARTS ON A NEW LINE AND TAKES UP THE FULL WIDTH AVAILABLE (WE CAN SET WIDTH AND HEIGHT) */}
-          {/* INLINE-BLOCK :- IT'S COMBINATION OF THE INLINE BLOCK VALUE, IT DOESN'T START ON NEW LINE BUT WE CAN SET HEIGHT AND WIDTH */}
-          {/* NONE :- THE ELEMENT WILL NOT BE DISPLAYED AT ALL AND HAS NO EFFECT ON LAYOUT */}
-          <div class="d-inline p-2 text-bg-primary w-50">d-inline</div>
-          <div class="d-inline p-2 text-bg-dark w-25">d-inline</div>{" "}
-          <div class=" p-2 text-bg-primary w-50">d-inline</div>
-          <div class=" p-2 text-bg-dark w-25">d-inline</div>{" "}
-          <span class="d-inline p-2 text-bg-primary w-50">d-inline</span>
-          <span class="d-inline p-2 text-bg-dark w-25">d-inline</span>{" "}
-        </div>
-        <div>
-          <h1>Embed</h1>
-          <p>
-            Create responsive video or slideshow based on the width of the
-            parent by creating an intrinsic ratio that scales on any devices
-          </p>
-          <div className="d-flex justify-content-center align-items-center">
-            <div className="embed-responsive embed-responsive-16by9">
-              <iframe
-                width="1080"
-                height="526"
-                src="https://www.youtube.com/embed/Uw_hZfH5Ukc"
-                title="9MM x LOLI SHIGURE UI"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+            </div>
+            <div className="card bg-warning">
+              <img
+                className="card-img-top"
+                alt="img"
+                src={products[8].thumbnail}
+              />
+              <div className="card-body">
+                <h3 className="card-text">{products[8].title}</h3>
+                <p className="card-text">{products[8].description}</p>
+              </div>
+            </div>
+            <div className="card bg-danger">
+              <img
+                className="card-img-top"
+                alt="img"
+                src={products[9].thumbnail}
+              />
+              <div className="card-body">
+                <h3 className="card-text">{products[9].title}</h3>
+                <p className="card-text">{products[9].description}</p>
+              </div>
             </div>
           </div>
         </div>
         <div>
-          <h1>Float</h1>
-          <p>
-            Toggles float on any element, acroos any breakpoint using the
-            responsive float utils
-          </p>
-          <div
-            className="border d-f border-warning border-2 container"
-            style={{ height: "200px" }}
-          >
-            {/* <img
-              alt={"image3"}
-              src={products[10].thumbnail}
-              className=" float-end mw-75 m-5 bg-danger"
-            />
-            <img
-              alt={"image2"}
-              src={products[9].thumbnail}
-              className="float-start mw-50 m-5 bg-primary"
-            /> */}
-            <div
-              className="float-end"
-              style={{
-                backgroundColor: "red",
-                height: "200px",
-                width: "200px",
-              }}
-            ></div>
-            <div
-              className="float-start"
-              style={{
-                backgroundColor: "green",
-                height: "200px",
-                width: "200px",
-              }}
-            ></div>
+          <h2>Card Decks</h2>
+          <div>
+            <div className="card-deck ">
+              <div className="card text-white bg-primary">
+                <img
+                  className="card-img-top"
+                  src={products[7].thumbnail}
+                  alt="img7"
+                  style={{ width: "300px" }}
+                />
+                <div className="card-body">
+                  <h3 className="card-text">{products[7].title}</h3>
+                  <p className="card-text">{products[7].description}</p>
+                </div>
+              </div>
+              <div className="card bg-warning">
+                <img
+                  className="card-img-top"
+                  style={{ width: "300px" }}
+                  alt="img"
+                  src={products[8].thumbnail}
+                />
+                <div className="card-body">
+                  <h3 className="card-text">{products[8].title}</h3>
+                  <p className="card-text">{products[8].description}</p>
+                </div>
+              </div>
+              <div className="card bg-danger">
+                <img
+                  className="card-img-top"
+                  style={{ width: "300px" }}
+                  alt="img"
+                  src={products[9].thumbnail}
+                />
+                <div className="card-body">
+                  <h3 className="card-text">{products[9].title}</h3>
+                  <p className="card-text">{products[9].description}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div>
+          <h2>Card Column</h2>
           <div>
-            <h1>Alerts</h1>
-            <div>
-              <div className="alert alert-danger" role="alert">
-                <em>Your password is incorrect</em>
+            <div className="card-columns ">
+              <div className="card text-white bg-primary">
+                <div className="card-body">
+                  <h3 className="card-text">{products[7].title}</h3>
+                  <p className="card-text">{products[7].description}</p>
+                  <p className="card-text">{products[7].description}</p>
+                </div>
               </div>
-              <div className="alert alert-success" role="alert">
-                <em>
-                  Your account is logged in{" "}
-                  <a className="alert-link" href="#">
-                    Click Here
-                  </a>{" "}
-                  to go to account
-                </em>
+              <div className="card bg-warning">
+                <div className="card-body">
+                  <h3 className="card-text">{products[8].title}</h3>
+                  <p className="card-text">{products[8].description}</p>
+                </div>
               </div>
-              <div className="alert alert-warning" role="alert">
-                To reset password{" "}
-                <a className="alert-link" href="#">
-                  <em>Click Here</em>
-                </a>
+              <div className="card bg-danger">
+                <div className="card-body">
+                  <h3 className="card-text">{products[9].title}</h3>
+                  <p className="card-text">{products[9].description}</p>
+                </div>
               </div>
-              {/* <div
-                className="alert alert-warning alert-dismissible fade show"
-                role="alert"
+            </div>{" "}
+            <div className="card-columns ">
+              <div className="card text-white bg-primary">
+                <div className="card-body">
+                  <h3 className="card-text">{products[7].title}</h3>
+                  <p className="card-text">{products[7].description}</p>
+                  <p className="card-text">{products[7].description}</p>
+                </div>
+              </div>
+              <div className="card bg-warning">
+                <div className="card-body">
+                  <h3 className="card-text">{products[8].title}</h3>
+                  <p className="card-text">{products[8].description}</p>
+                </div>
+              </div>
+              <div className="card bg-danger">
+                <div className="card-body">
+                  <h3 className="card-text">{products[9].title}</h3>
+                  <p className="card-text">{products[9].description}</p>
+                </div>
+              </div>
+            </div>{" "}
+            <div className="card-columns ">
+              <div className="card text-white bg-primary">
+                <div className="card-body">
+                  <h3 className="card-text">{products[7].title}</h3>
+                  <p className="card-text">{products[7].description}</p>
+                  <p className="card-text">{products[7].description}</p>
+                </div>
+              </div>
+              <div className="card bg-warning">
+                <div className="card-body">
+                  <h3 className="card-text">{products[8].title}</h3>
+                  <p className="card-text">{products[8].description}</p>
+                </div>
+              </div>
+              <div className="card bg-danger">
+                <div className="card-body">
+                  <h3 className="card-text">{products[9].title}</h3>
+                  <p className="card-text">{products[9].description}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Dropdown</h1>
+          <div>
+            <div className="dropdown">
+              <button
+                className="btn btn-success dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-                <strong>To close it click X</strong>
-                <button
-                  type="button"
-                  className="close"
-                  data-dismiss="alert"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div> */}
+                Profile
+              </button>
               <div
-                class="alert alert-warning alert-dismissible fade show"
-                role="alert"
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
               >
-                To Close click X
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="alert"
-                  aria-label="Close"
-                ></button>
+                <a className="dropdown-item">Edit Profile</a>
+                <a className="dropdown-item">Change Password</a>
+                <a className="dropdown-item">Change Email</a>
               </div>
             </div>
           </div>
         </div>
         <div>
-          <h1>Breadcrumb</h1>
-          <div className="container">
-            <nav aria-label="breadcrumb">
-              <ol className="breadcrumb">
-                <li className="breadcrumb-item">
-                  <a href="#">Home</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#">Contact Us</a>
-                </li>
-                <li className="breadcrumb-item active" aria-current="page">
-                  <a href="#">Form</a>
-                </li>
-              </ol>
-            </nav>
-          </div>
-        </div>
-        <div>
-          <h1>Buttons</h1>
-          <div className="column d-flex justify-content-between">
-            <button type="button" className="btn btn-primary">
-              Hello Primary
-            </button>
-            <button type="button" class="btn btn-danger">
-              Danger
-            </button>
-            <input
-              type="submit"
-              className="btn btn-success active"
-              role="button"
-              value="Submit"
-            />
-            <button
-              className="btn btn-danger btn-lg"
-              // role="button"
-              type="button"
-            >
-              Hmmm
-            </button>
-            <button
-              className="btn btn-emphasis btn-lg disabled"
-              type="button"
-              aria-disabled="true"
-            >
-              SOLD
-            </button>
-          </div>
-        </div>
-        <div>
-          <h1>Button Group</h1>
-          <div
-            role="group"
-            className="btn-group d-flex justify-content-between"
-          >
-            <button type="button" class="btn btn-outline-warning">
-              Warning
-            </button>
-            <br />
-            <button type="button" class="btn btn-outline-info">
-              Info
-            </button>
-            <br />
-            <button type="button" class="btn btn-outline-danger">
-              danger
-            </button>
-            <br />
-          </div>
-        </div>
-        <div>
-          <h1>CheckBox Button</h1>
-          <div className="container">
-            <button type="button" className="btn btn-warning btn-lg">
-              Yellow Button
-              <br></br>
-            </button>
-            <div className="btn-group-toggle" data-toggle="buttons">
-              <label className="btn btn-info">
-                <input type="checkbox" autoComplete="off" />
-                Java
-              </label>
+          <h1>Split Button</h1>
+          <div>
+            <div className="dropdown">
+              <button type="button" className="btn btn-danger">
+                Profile
+              </button>
+              <button
+                className="btn btn-success dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              ></button>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item">Edit Profile</a>
+                <a className="dropdown-item">Change Password</a>
+                <a className="dropdown-item">Change Email</a>
+              </div>
+            </div>{" "}
+            <div className="btn-group">
+              <button type="button" className="btn btn-warning">
+                Profile
+              </button>
+              <button
+                className="btn btn-warning dropdown-toggle dropdown-toggle-split"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              ></button>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item">Edit Profile</a>
+                <a className="dropdown-item">Change Password</a>
+                <a className="dropdown-item">Change Email</a>
+              </div>
             </div>
           </div>
         </div>
         <div>
-          <h1>Radio Button</h1>
-          <div className="btn-group btn-group-toggle" data-toggle="buttons">
-            <label className="btn btn-success active">
-              <input
-                type="radio"
-                name="options"
-                id="option1"
-                autoComplete="off"
-                checked
-              />
-              Male
-            </label>
-            <label className="btn btn-success">
-              <input
-                type="radio"
-                name="options"
-                id="option2"
-                autoComplete="off"
-              />
-              Female
-            </label>
+          <h1>Dropdown Directions</h1>
+          <div>
+            <div className="btn-group dropup">
+              <button type="button" className="btn btn-danger">
+                Profile
+              </button>
+              <button
+                className="btn btn-success dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              ></button>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item">Edit Profile</a>
+                <a className="dropdown-item">Change Password</a>
+                <a className="dropdown-item">Change Email</a>
+              </div>
+            </div>
+            <div className="btn-group dropend">
+              <button type="button" className="btn btn-danger">
+                Profile
+              </button>
+              <button
+                className="btn btn-success dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              ></button>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item">Edit Profile</a>
+                <a className="dropdown-item">Change Password</a>
+                <a className="dropdown-item">Change Email</a>
+              </div>
+            </div>
+            <div className="btn-group dropstart">
+              <button type="button" className="btn btn-danger">
+                Profile
+              </button>
+              <button
+                className="btn btn-success dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              ></button>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <a className="dropdown-item">Edit Profile</a>
+                <a className="dropdown-item">Change Password</a>
+                <a className="dropdown-item">Change Email</a>
+              </div>
+            </div>
           </div>
         </div>
         <div>
-          <h1>Button Toolbar</h1>
-          <div className="btn-toolbar" role="group">
-            <button type="button" class="btn btn-success">
-              Submit
-            </button>
-            <button type="button" class="btn btn-danger">
-              Cancel
-            </button>
-            <button type="button" class="btn btn-warning">
-              Reset
-            </button>
+          <h1>Collapse</h1>
+          <div>
+            <div className="container">
+              <h3>By using anchor tag</h3>
+              <a
+                className="btn btn-primary"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+                data-bs-toggle="collapse"
+                href="#mydiv"
+              >
+                Click Me
+              </a>
+              <div className="collapse" id="mydiv">
+                Provide a valid, navigable address as the href value. If you
+                cannot provide an href, but still need the element to resemble a
+                link, use a button and change it with appropriate styles. Learn
+                more:
+                https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+              </div>
+            </div>
           </div>
-          <div className="btn-toolbar" role="group">
-            <button type="button" class="btn btn-success">
-              Test1
-            </button>
-            <button type="button" class="btn btn-danger">
-              Hello
-            </button>
-            <button type="button" class="btn btn-warning">
-              Hi
-            </button>
-          </div>{" "}
-          <div className="btn-toolbar" role="group">
-            <button type="button" class="btn btn-success">
-              1
-            </button>
-            <button type="button" class="btn btn-danger">
-              2
-            </button>
-            <button type="button" class="btn btn-warning">
-              3
-            </button>
+          <div>
+            <div className="container">
+              <h3>By using a button</h3>
+              <button
+                className="btn btn-danger"
+                // role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+                data-bs-toggle="collapse"
+                data-bs-target="#mydiv2"
+              >
+                Click Me
+              </button>
+              <div className="collapse" id="mydiv2">
+                Provide a valid, navigable address as the href value. If you
+                cannot provide an href, but still need the element to resemble a
+                link, use a button and change it with appropriate styles. Learn
+                more:
+                https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+              </div>
+            </div>
           </div>
         </div>
-        <div className="container">
-          <h1>Cards</h1>
-          <p>
-            Cards in an flexible and extensible container that contains multiple
-            varients and option
-          </p>
-          <div className="cards d-flex flex-wrap">
-            {products
-              .filter((item) => item.id >= 13 && item.id <= 20)
-              .map((item, index) => {
-                return (
-                  <div
-                    key={index}
-                    className="card text-center"
-                    style={{ width: "18rem", margin: "1rem" }}
+        <div>
+          <h1>Accordion</h1>
+          <div>
+            <div className="accordion" id="accordion-ex">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-1"
+                    aria-expanded="false"
+                    // aria-controls="collapse-1"
                   >
-                    <img
-                      className="card-img-top"
-                      src={item.thumbnail}
-                      alt={item.id}
-                    />
-                    <div className="card-body">
-                      <h4 className="card-title">{item.title}</h4>
-                      <h5 className="card-subtitle text-body-secondary">
-                        {item.brand}
-                      </h5>
-                      <p className="card-text">{item.description}</p>
-                      <ul className="list-group list-group-flush">
-                        <li className="list-group-item">
-                          {item.stock} left only
-                        </li>
-                        <li className="list-group-item">{item.rating}/5</li>
-                        <li className="list-group-item">{item.price}$</li>
-                      </ul>
-                      <a href="#" className="btn btn-primary">
-                        Buy Now
-                      </a>
-                    </div>
-                  </div>
-                );
-              })}
+                    Accordion Button 1
+                  </button>
+                </h2>
+                <div
+                  id="collapse-1"
+                  className="accordion-collapse collapse show"
+                  data-bs-parent="#accordion-ex"
+                >
+                  Line 2456:17: The href attribute is required for an anchor to
+                  be keyboard accessible. Provide a valid, navigable address as
+                  the href value. If you cannot provide an href, but still need
+                  the element to resemble a link, use a button and change it
+                  with appropriate styles. Learn more:
+                  https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+                  jsx-a11y/anchor-is-valid
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-2"
+                    aria-expanded="false"
+                    // aria-controls="collapse-1"
+                  >
+                    Accordion Button 2
+                  </button>
+                </h2>
+                <div
+                  id="collapse-2"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordion-ex"
+                >
+                  Line 2456:17: The href attribute is required for an anchor to
+                  be keyboard accessible. Provide a valid, navigable address as
+                  the href value. If you cannot provide an href, but still need
+                  the element to resemble a link, use a button and change it
+                  with appropriate styles. Learn more:
+                  https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+                  jsx-a11y/anchor-is-valid
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
-            <div className="card-header">Features</div>
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item">Card 1</li>
-              <li className="list-group-item">Card 2</li>
-              <li className="list-group-item">Card 3</li>
+        </div>
+        <div>
+          <h2>Badges</h2>
+          <div>
+            <div>
+              <h1>
+                Notifications
+                <span className="badge text-bg-primary">NEW</span>
+                <button className="btn btn-info">
+                  Inbox <span className="badge text-bg-primary">6</span>{" "}
+                </button>
+              </h1>
+              <a href="#idk" className="badge badge-dark text-bg-dark">
+                Visit
+              </a>
+              <a
+                href="#idk"
+                className="badge rounded-pill badge-dark text-bg-dark"
+              >
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Base Nav</h1>
+          <div>
+            <div className="container">
+              <ul className="nav">
+                <li className="nav-item">
+                  <a className="nav-link" href="#jk">
+                    Home
+                  </a>{" "}
+                </li>{" "}
+                <li className="nav-item">
+                  <a className="nav-link" href="#jk">
+                    About Us
+                  </a>{" "}
+                </li>{" "}
+                <li className="nav-item">
+                  <a className="nav-link" href="#jk">
+                    Our Clients
+                  </a>{" "}
+                </li>
+                <li className="nav-item ">
+                  <a className="nav-link disabled" href="#jk">
+                    Contact Us
+                  </a>{" "}
+                </li>{" "}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Tabs</h1>
+          <div>
+            <ul className="nav nav-tabs">
+              <li className="nav-item">
+                <a className="nav-link" href="#jk">
+                  Home
+                </a>{" "}
+              </li>{" "}
+              <li className="nav-item">
+                <a className="nav-link" href="#jk">
+                  About Us
+                </a>{" "}
+              </li>{" "}
+              <li className="nav-item">
+                <a className="nav-link" href="#jk">
+                  Our Clients
+                </a>{" "}
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link disabled" href="#jk">
+                  Contact Us
+                </a>{" "}
+              </li>{" "}
+            </ul>
+          </div>
+          <h1>Pills and Fill</h1>
+          <div>
+            <ul className="nav nav-pills nav-fill">
+              <li className="nav-item ">
+                <a className="nav-link active" href="#jk">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#jk">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#jk">
+                  Our Clients
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link disabled" href="#jk">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1>justified</h1>
+
+            <ul className="nav nav-pills nav-fill nav-justified">
+              <li className="nav-item ">
+                <a className="nav-link active" href="#jk">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#jk">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#jk">
+                  Our Clients
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link disabled" href="#jk">
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <div>
-          <h1>Card Header</h1>
+          <h1>Tabs With Dropdown</h1>
           <div>
-            {products
-              .filter((item) => item.id <= 4)
-              .map((item, index) => {
-                return (
-                  <div key={index} className="card m-1">
-                    <div className="card-header">{item.brand}</div>
-                    <div className="card-body">
-                      <h5>
-                        {item.category} from {item.brand}
-                      </h5>
-                    </div>
+            <nav className="nav nav-tabs">
+              <ul className="nav">
+                <li className="nav-item ">
+                  <a className="nav-link active" href="#jk">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#jk">
+                    About Us
+                  </a>
+                </li>
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    href="#jk"
+                  >
+                    Our Clients
+                  </a>
+                  <div className="dropdown-menu">
+                    <a className="dropdown-item" href="#jd">
+                      Wipro
+                    </a>
+                    <a className="dropdown-item" href="#jd">
+                      TCS
+                    </a>
+                    <a className="dropdown-item" href="#jd">
+                      Microsoft
+                    </a>
                   </div>
-                );
-              })}
+                </li>
+                <li className="nav-item ">
+                  <a className="nav-link disabled" href="#jk">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>{" "}
+            </nav>
           </div>
         </div>
         <div>
-          <h1>Card Image Overlays</h1>
-          <div className="card bg-dark text-white">
-            <img
-              className="card-img"
-              src="https://images.unsplash.com/photo-1520052205864-92d242b3a76b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="fasfsd"
-              style={{ height: "576px" }}
-            />
-            <div className="card-img-overlay text-black">
-              <h5 className="card-title">Nice View</h5>
-              <p className="card-text">The Description will be here</p>
-              <p className="card-text">Last updadted ...............</p>
+          {/* <h1>Tab With Contents</h1> */}
+          {/* <div>
+            <div>
+              <ul className="nav nav-tabs" id="myTabs" role="tablist">
+                <li className="nav-item ">
+                  <a
+                    className="nav-link active"
+                    href="#client-info"
+                    id="course"
+                    data-bs-toggle="tab"
+                    role="tab"
+                    aria-controls="clientInfo"
+                    aria-selected="true"
+                  >
+                    Wipro
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="#client-info-1"
+                    className="nav-link"
+                    id="client-1"
+                    data-bs-toggle="tab"
+                    role="tab"
+                    aria-controls="clientInfo"
+                    aria-selected="false"
+                  >
+                    TCS
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="#client-2"
+                    className="nav-link"
+                    id="client-2"
+                    data-bs-toggle="tab"
+                    role="tab"
+                    aria-controls="clientInfo"
+                    aria-selected="false"
+                  >
+                    Microsoft
+                  </a>
+                </li>
+              </ul>
+              <div className="tab-content" id="myTabContent">
+                <div
+                  className="tab-pane active"
+                  id="course-info"
+                  role="tabpanel"
+                  aria-labelledby="client"
+                >
+                  Client 1
+                </div>
+              </div>
+              <div className="tab-content" id="myTabContent">
+                <div
+                  className="tab-pane "
+                  id="client-1"
+                  role="tabpanel"
+                  aria-labelledby="client-1"
+                >
+                  Clinet 2
+                </div>
+              </div>{" "}
+              <div className="tab-content" id="myTabContent">
+                <div
+                  className="tab-pane "
+                  id="client-2"
+                  role="tabpanel"
+                  aria-labelledby="client-2"
+                >
+                  Client 3
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            
+          </div> */}
+        </div>
+        <div>
+          <h1>Tab With Contents</h1>
+          <div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  TCS
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  Wipro
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  Microsoft
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+                tabindex="0"
+              >
+                TCS
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+                tabindex="0"
+              >
+                Wipro
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+                tabindex="0"
+              >
+                Microsoft
+              </div>
             </div>
           </div>
         </div>
         <div>
-          <h1>Card Styles</h1>
-          <div className="card bg-dark text-info">
-            <div className="card-header">Finance</div>
-            <div className="card-body">
-              <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
-              <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
-                nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
-                ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
-                molestie at elementum eu facilisis sed odio morbi quis. Quisque
-                non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
-                Cras adipiscing enim eu turpis egestas pretium aenean pharetra
-                magna. Viverra suspendisse potenti nullam ac tortor vitae purus
-                faucibus ornare. Mauris vitae ultricies leo integer malesuada
-                nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
-                curabitur gravida.
-              </p>
+          <h1>
+            Navbar
+            <div>
+              <div className="container">
+                <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+                  <a className="navbar-brand" href="#brand">
+                    <img
+                      src={products[7].thumbnail}
+                      alt="brand-img"
+                      className="w-25"
+                    />{" "}
+                    Brand{" "}
+                  </a>
+                  <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
+                      <a className="nav-link">Home</a>
+                    </li>{" "}
+                    <li className="nav-item">
+                      <a className="nav-link">Contact</a>
+                    </li>{" "}
+                    <li className="nav-item">
+                      <a className="nav-link">OurClients</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </h1>
+        </div>
+        <div>
+          <h1>Mobile Friendly Navbar</h1>
+          <div>
+            <div>
+              <div>
+                <div className="container">
+                  <nav className="navbar navbar-expand-lg bg-body body-teritiary">
+                    <div className="container-fluid">
+                      <a className="navbar-brand" href="#brand">
+                        Brand Image
+                      </a>
+                      <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#myMenu"
+                        aria-controls="#myMenu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <span className="navbar-toggler-icon"></span>
+                      </button>
+                      <div className="collapse navbar-collapse" id="myMenu">
+                        <ul className="navbar-nav me-auto mb-lg-0">
+                          <li className="nav-item">
+                            <a className="nav-link active" aria-current="page">
+                              Home
+                            </a>
+                          </li>{" "}
+                          <li className="nav-item">
+                            <a className="nav-link">Contact</a>
+                          </li>{" "}
+                          <li className="nav-item">
+                            <a
+                              className="nav-link disable"
+                              aria-disabled="true"
+                            >
+                              OurClients
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="card bg-warning text-danger border border-5 border-success m-2">
-            <div className="card-header">Finance</div>
-            <div className="card-body">
-              <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
-              <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
-                nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
-                ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
-                molestie at elementum eu facilisis sed odio morbi quis. Quisque
-                non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
-                Cras adipiscing enim eu turpis egestas pretium aenean pharetra
-                magna. Viverra suspendisse potenti nullam ac tortor vitae purus
-                faucibus ornare. Mauris vitae ultricies leo integer malesuada
-                nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
-                curabitur gravida.
-              </p>
+        </div>
+        <div>
+          {/* <h1>Navabar placement Fixed Top Fixed Bottom and Sticky</h1>
+          <div> </div> */}
+        </div>
+        <div>
+          <h1>Dropdown Menu Navabar</h1>
+          <div>
+            <nav className="navbar navbar-expand-lg">
+              <div className="" id="navbarNavDropdown">
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <a className="nav-link active" aria-current="page" href="#">
+                      Home
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Features
+                    </a>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="#jd"
+                      role="button"
+                      data-bs-toggle="dropddown"
+                      aria-expanded="false"
+                    >
+                      Pricing Dropdown
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Action
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Another action
+                        </a>
+                      </li>
+
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Something else here
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">
+                      Disabled
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div>
+            <ul className="navbar-nav">
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h1>Navbar Search</h1>
+          <div>
+            <nav class="navbar bg-body-tertiary">
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-dark" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div>
+          <h1>Image Slider Or Carousel</h1>
+          <div id="carouselExample" className="carousel slide">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src={products[5].images[1]}
+                  className="d-block w-100"
+                  alt="img-1"
+                  width={"200px"}
+                  height={"200px"}
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={products[5].images[2]}
+                  className="d-block w-100"
+                  alt="img-2"
+                  width={"200px"}
+                  height={"200px"}
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={products[5].images[3]}
+                  className="d-block w-100"
+                  alt="img-3"
+                  width={"200px"}
+                  height={"200px"}
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={products[5].images[0]}
+                  className="d-block w-100"
+                  alt="img-0"
+                  width={"200px"}
+                  height={"200px"}
+                />
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div>
+          <h1>Jumbotron </h1>
+          <div className="container">
+            <div className="jumbotron">
+              <h1>Jumbotron CLASS NOT WORKING IN VER 5.3</h1>
             </div>
           </div>
-          <div className="card bg-transparent text-success border border-5 border-success m-2">
-            <div className="card-header">Finance</div>
-            <div className="card-body">
-              <h2 className="card-text">Buy ASSETES not LIABILITIES</h2>
-              <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo
-                nec. Nisl rhoncus mattis rhoncus urna neque viverra justo nec
-                ultrices. Adipiscing elit ut aliquam purus sit amet luctus. Urna
-                molestie at elementum eu facilisis sed odio morbi quis. Quisque
-                non tellus orci ac auctor augue. Non curabitur gravida arcu ac.
-                Cras adipiscing enim eu turpis egestas pretium aenean pharetra
-                magna. Viverra suspendisse potenti nullam ac tortor vitae purus
-                faucibus ornare. Mauris vitae ultricies leo integer malesuada
-                nunc vel. Tempus iaculis urna id volutpat lacus laoreet non
-                curabitur gravida.
-              </p>
+        </div>
+        <div>
+          <h1>Pagination</h1>
+          <div>
+            <nav aria-label="Page navigation">
+              <ul className="pagination justify-content-center">
+                {/* <li className="page-item">
+                  <a className="page-link" href="#">
+                    Previous
+                  </a>
+                </li> */}
+                <li className="page-item">
+                  <a className="page-link" aria-label="Previous" href="#">
+                    <span aria-hidden="true">&laquo;</span>{" "}
+                    <span className="sr-only"> Previous</span>
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    1
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    2
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    3
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    4
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    5
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    6
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    7
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" href="#">
+                    Next
+                  </a>
+                </li>
+                <li className="page-item">
+                  <a className="page-link" aria-label="Next" href="#">
+                    <span className="sr-only"> Next</span>
+                    <span aria-hidden="true">&raquo;</span>{" "}
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div>
+          <h1>Progress Bar</h1>
+          <div>
+            <div className="progress">
+              <div
+                className="progress-bar w-75"
+                role="progressbar"
+                // style={{"width:25%"}}
+                aria-valuenow={"25"}
+                aria-valuemin={"0"}
+                aria-valuetext={"100"}
+              ></div>{" "}
             </div>
+            <div className="progress m-2">
+              <div
+                className="progress-bar"
+                role="progressbar"
+                style={{ width: "40%" }}
+                aria-valuenow={"50"}
+                aria-valuemin={"0"}
+                aria-valuetext={"100"}
+              ></div>{" "}
+            </div>
+            <div className="progress">
+              <div
+                className="progress-bar "
+                role="progressbar"
+                style={{ width: "25%" }}
+                aria-valuenow={"50"}
+                aria-valuemin={"0"}
+                aria-valuetext={"100"}
+              ></div>{" "}
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Tooltips</h1>
+          <div className="container">
+            <button
+              className="btn btn-warning"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="click to login"
+            >
+              Login
+            </button>
           </div>
         </div>
       </div>
