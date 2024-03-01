@@ -2166,1120 +2166,1123 @@ function Body() {
     //     </div>
     //   </div>
     // </div>
+    // <div>
+    //   <div className="m-3">
+    //     <h1> Day 07</h1>
+    //     <div>
+    //       <h2>Card Group</h2>
+    //       <div className="card-group ">
+    //         <div className="card text-white bg-primary">
+    //           <img
+    //             className="card-img-top"
+    //             alt="img"
+    //             src={products[7].thumbnail}
+    //           />
+    //           <div className="card-body">
+    //             <h3 className="card-text">{products[7].title}</h3>
+    //             <p className="card-text">{products[7].description}</p>
+    //           </div>
+    //         </div>
+    //         <div className="card bg-warning">
+    //           <img
+    //             className="card-img-top"
+    //             alt="img"
+    //             src={products[8].thumbnail}
+    //           />
+    //           <div className="card-body">
+    //             <h3 className="card-text">{products[8].title}</h3>
+    //             <p className="card-text">{products[8].description}</p>
+    //           </div>
+    //         </div>
+    //         <div className="card bg-danger">
+    //           <img
+    //             className="card-img-top"
+    //             alt="img"
+    //             src={products[9].thumbnail}
+    //           />
+    //           <div className="card-body">
+    //             <h3 className="card-text">{products[9].title}</h3>
+    //             <p className="card-text">{products[9].description}</p>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h2>Card Decks</h2>
+    //       <div>
+    //         <div className="card-deck ">
+    //           <div className="card text-white bg-primary">
+    //             <img
+    //               className="card-img-top"
+    //               src={products[7].thumbnail}
+    //               alt="img7"
+    //               style={{ width: "300px" }}
+    //             />
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[7].title}</h3>
+    //               <p className="card-text">{products[7].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-warning">
+    //             <img
+    //               className="card-img-top"
+    //               style={{ width: "300px" }}
+    //               alt="img"
+    //               src={products[8].thumbnail}
+    //             />
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[8].title}</h3>
+    //               <p className="card-text">{products[8].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-danger">
+    //             <img
+    //               className="card-img-top"
+    //               style={{ width: "300px" }}
+    //               alt="img"
+    //               src={products[9].thumbnail}
+    //             />
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[9].title}</h3>
+    //               <p className="card-text">{products[9].description}</p>
+    //             </div>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h2>Card Column</h2>
+    //       <div>
+    //         <div className="card-columns ">
+    //           <div className="card text-white bg-primary">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[7].title}</h3>
+    //               <p className="card-text">{products[7].description}</p>
+    //               <p className="card-text">{products[7].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-warning">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[8].title}</h3>
+    //               <p className="card-text">{products[8].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-danger">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[9].title}</h3>
+    //               <p className="card-text">{products[9].description}</p>
+    //             </div>
+    //           </div>
+    //         </div>{" "}
+    //         <div className="card-columns ">
+    //           <div className="card text-white bg-primary">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[7].title}</h3>
+    //               <p className="card-text">{products[7].description}</p>
+    //               <p className="card-text">{products[7].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-warning">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[8].title}</h3>
+    //               <p className="card-text">{products[8].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-danger">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[9].title}</h3>
+    //               <p className="card-text">{products[9].description}</p>
+    //             </div>
+    //           </div>
+    //         </div>{" "}
+    //         <div className="card-columns ">
+    //           <div className="card text-white bg-primary">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[7].title}</h3>
+    //               <p className="card-text">{products[7].description}</p>
+    //               <p className="card-text">{products[7].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-warning">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[8].title}</h3>
+    //               <p className="card-text">{products[8].description}</p>
+    //             </div>
+    //           </div>
+    //           <div className="card bg-danger">
+    //             <div className="card-body">
+    //               <h3 className="card-text">{products[9].title}</h3>
+    //               <p className="card-text">{products[9].description}</p>
+    //             </div>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Dropdown</h1>
+    //       <div>
+    //         <div className="dropdown">
+    //           <button
+    //             className="btn btn-success dropdown-toggle"
+    //             type="button"
+    //             id="dropdownMenuButton"
+    //             data-bs-toggle="dropdown"
+    //             aria-haspopup="true"
+    //             aria-expanded="false"
+    //           >
+    //             Profile
+    //           </button>
+    //           <div
+    //             className="dropdown-menu"
+    //             aria-labelledby="dropdownMenuButton"
+    //           >
+    //             <a className="dropdown-item">Edit Profile</a>
+    //             <a className="dropdown-item">Change Password</a>
+    //             <a className="dropdown-item">Change Email</a>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Split Button</h1>
+    //       <div>
+    //         <div className="dropdown">
+    //           <button type="button" className="btn btn-danger">
+    //             Profile
+    //           </button>
+    //           <button
+    //             className="btn btn-success dropdown-toggle"
+    //             type="button"
+    //             id="dropdownMenuButton"
+    //             data-bs-toggle="dropdown"
+    //             aria-haspopup="true"
+    //             aria-expanded="false"
+    //           ></button>
+    //           <div
+    //             className="dropdown-menu"
+    //             aria-labelledby="dropdownMenuButton"
+    //           >
+    //             <a className="dropdown-item">Edit Profile</a>
+    //             <a className="dropdown-item">Change Password</a>
+    //             <a className="dropdown-item">Change Email</a>
+    //           </div>
+    //         </div>{" "}
+    //         <div className="btn-group">
+    //           <button type="button" className="btn btn-warning">
+    //             Profile
+    //           </button>
+    //           <button
+    //             className="btn btn-warning dropdown-toggle dropdown-toggle-split"
+    //             type="button"
+    //             id="dropdownMenuButton"
+    //             data-bs-toggle="dropdown"
+    //             aria-haspopup="true"
+    //             aria-expanded="false"
+    //           ></button>
+    //           <div
+    //             className="dropdown-menu"
+    //             aria-labelledby="dropdownMenuButton"
+    //           >
+    //             <a className="dropdown-item">Edit Profile</a>
+    //             <a className="dropdown-item">Change Password</a>
+    //             <a className="dropdown-item">Change Email</a>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Dropdown Directions</h1>
+    //       <div>
+    //         <div className="btn-group dropup">
+    //           <button type="button" className="btn btn-danger">
+    //             Profile
+    //           </button>
+    //           <button
+    //             className="btn btn-success dropdown-toggle"
+    //             type="button"
+    //             id="dropdownMenuButton"
+    //             data-bs-toggle="dropdown"
+    //             aria-haspopup="true"
+    //             aria-expanded="false"
+    //           ></button>
+    //           <div
+    //             className="dropdown-menu"
+    //             aria-labelledby="dropdownMenuButton"
+    //           >
+    //             <a className="dropdown-item">Edit Profile</a>
+    //             <a className="dropdown-item">Change Password</a>
+    //             <a className="dropdown-item">Change Email</a>
+    //           </div>
+    //         </div>
+    //         <div className="btn-group dropend">
+    //           <button type="button" className="btn btn-danger">
+    //             Profile
+    //           </button>
+    //           <button
+    //             className="btn btn-success dropdown-toggle"
+    //             type="button"
+    //             id="dropdownMenuButton"
+    //             data-bs-toggle="dropdown"
+    //             aria-haspopup="true"
+    //             aria-expanded="false"
+    //           ></button>
+    //           <div
+    //             className="dropdown-menu"
+    //             aria-labelledby="dropdownMenuButton"
+    //           >
+    //             <a className="dropdown-item">Edit Profile</a>
+    //             <a className="dropdown-item">Change Password</a>
+    //             <a className="dropdown-item">Change Email</a>
+    //           </div>
+    //         </div>
+    //         <div className="btn-group dropstart">
+    //           <button type="button" className="btn btn-danger">
+    //             Profile
+    //           </button>
+    //           <button
+    //             className="btn btn-success dropdown-toggle"
+    //             type="button"
+    //             id="dropdownMenuButton"
+    //             data-bs-toggle="dropdown"
+    //             aria-haspopup="true"
+    //             aria-expanded="false"
+    //           ></button>
+    //           <div
+    //             className="dropdown-menu"
+    //             aria-labelledby="dropdownMenuButton"
+    //           >
+    //             <a className="dropdown-item">Edit Profile</a>
+    //             <a className="dropdown-item">Change Password</a>
+    //             <a className="dropdown-item">Change Email</a>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Collapse</h1>
+    //       <div>
+    //         <div className="container">
+    //           <h3>By using anchor tag</h3>
+    //           <a
+    //             className="btn btn-primary"
+    //             role="button"
+    //             aria-expanded="false"
+    //             aria-controls="collapseExample"
+    //             data-bs-toggle="collapse"
+    //             href="#mydiv"
+    //           >
+    //             Click Me
+    //           </a>
+    //           <div className="collapse" id="mydiv">
+    //             Provide a valid, navigable address as the href value. If you
+    //             cannot provide an href, but still need the element to resemble a
+    //             link, use a button and change it with appropriate styles. Learn
+    //             more:
+    //             https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+    //           </div>
+    //         </div>
+    //       </div>
+    //       <div>
+    //         <div className="container">
+    //           <h3>By using a button</h3>
+    //           <button
+    //             className="btn btn-danger"
+    //             // role="button"
+    //             aria-expanded="false"
+    //             aria-controls="collapseExample"
+    //             data-bs-toggle="collapse"
+    //             data-bs-target="#mydiv2"
+    //           >
+    //             Click Me
+    //           </button>
+    //           <div className="collapse" id="mydiv2">
+    //             Provide a valid, navigable address as the href value. If you
+    //             cannot provide an href, but still need the element to resemble a
+    //             link, use a button and change it with appropriate styles. Learn
+    //             more:
+    //             https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Accordion</h1>
+    //       <div>
+    //         <div className="accordion" id="accordion-ex">
+    //           <div className="accordion-item">
+    //             <h2 className="accordion-header">
+    //               <button
+    //                 className="accordion-button"
+    //                 type="button"
+    //                 data-bs-toggle="collapse"
+    //                 data-bs-target="#collapse-1"
+    //                 aria-expanded="false"
+    //                 // aria-controls="collapse-1"
+    //               >
+    //                 Accordion Button 1
+    //               </button>
+    //             </h2>
+    //             <div
+    //               id="collapse-1"
+    //               className="accordion-collapse collapse show"
+    //               data-bs-parent="#accordion-ex"
+    //             >
+    //               Line 2456:17: The href attribute is required for an anchor to
+    //               be keyboard accessible. Provide a valid, navigable address as
+    //               the href value. If you cannot provide an href, but still need
+    //               the element to resemble a link, use a button and change it
+    //               with appropriate styles. Learn more:
+    //               https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+    //               jsx-a11y/anchor-is-valid
+    //             </div>
+    //           </div>
+    //           <div className="accordion-item">
+    //             <h2 className="accordion-header">
+    //               <button
+    //                 className="accordion-button collapsed"
+    //                 type="button"
+    //                 data-bs-toggle="collapse"
+    //                 data-bs-target="#collapse-2"
+    //                 aria-expanded="false"
+    //                 // aria-controls="collapse-1"
+    //               >
+    //                 Accordion Button 2
+    //               </button>
+    //             </h2>
+    //             <div
+    //               id="collapse-2"
+    //               className="accordion-collapse collapse"
+    //               data-bs-parent="#accordion-ex"
+    //             >
+    //               Line 2456:17: The href attribute is required for an anchor to
+    //               be keyboard accessible. Provide a valid, navigable address as
+    //               the href value. If you cannot provide an href, but still need
+    //               the element to resemble a link, use a button and change it
+    //               with appropriate styles. Learn more:
+    //               https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
+    //               jsx-a11y/anchor-is-valid
+    //             </div>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h2>Badges</h2>
+    //       <div>
+    //         <div>
+    //           <h1>
+    //             Notifications
+    //             <span className="badge text-bg-primary">NEW</span>
+    //             <button className="btn btn-info">
+    //               Inbox <span className="badge text-bg-primary">6</span>{" "}
+    //             </button>
+    //           </h1>
+    //           <a href="#idk" className="badge badge-dark text-bg-dark">
+    //             Visit
+    //           </a>
+    //           <a
+    //             href="#idk"
+    //             className="badge rounded-pill badge-dark text-bg-dark"
+    //           >
+    //             Visit
+    //           </a>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Base Nav</h1>
+    //       <div>
+    //         <div className="container">
+    //           <ul className="nav">
+    //             <li className="nav-item">
+    //               <a className="nav-link" href="#jk">
+    //                 Home
+    //               </a>{" "}
+    //             </li>{" "}
+    //             <li className="nav-item">
+    //               <a className="nav-link" href="#jk">
+    //                 About Us
+    //               </a>{" "}
+    //             </li>{" "}
+    //             <li className="nav-item">
+    //               <a className="nav-link" href="#jk">
+    //                 Our Clients
+    //               </a>{" "}
+    //             </li>
+    //             <li className="nav-item ">
+    //               <a className="nav-link disabled" href="#jk">
+    //                 Contact Us
+    //               </a>{" "}
+    //             </li>{" "}
+    //           </ul>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Tabs</h1>
+    //       <div>
+    //         <ul className="nav nav-tabs">
+    //           <li className="nav-item">
+    //             <a className="nav-link" href="#jk">
+    //               Home
+    //             </a>{" "}
+    //           </li>{" "}
+    //           <li className="nav-item">
+    //             <a className="nav-link" href="#jk">
+    //               About Us
+    //             </a>{" "}
+    //           </li>{" "}
+    //           <li className="nav-item">
+    //             <a className="nav-link" href="#jk">
+    //               Our Clients
+    //             </a>{" "}
+    //           </li>
+    //           <li className="nav-item ">
+    //             <a className="nav-link disabled" href="#jk">
+    //               Contact Us
+    //             </a>{" "}
+    //           </li>{" "}
+    //         </ul>
+    //       </div>
+    //       <h1>Pills and Fill</h1>
+    //       <div>
+    //         <ul className="nav nav-pills nav-fill">
+    //           <li className="nav-item ">
+    //             <a className="nav-link active" href="#jk">
+    //               Home
+    //             </a>
+    //           </li>
+    //           <li className="nav-item">
+    //             <a className="nav-link" href="#jk">
+    //               About Us
+    //             </a>
+    //           </li>
+    //           <li className="nav-item">
+    //             <a className="nav-link" href="#jk">
+    //               Our Clients
+    //             </a>
+    //           </li>
+    //           <li className="nav-item ">
+    //             <a className="nav-link disabled" href="#jk">
+    //               Contact Us
+    //             </a>
+    //           </li>
+    //         </ul>
+    //       </div>
+    //       <div>
+    //         <h1>justified</h1>
+
+    //         <ul className="nav nav-pills nav-fill nav-justified">
+    //           <li className="nav-item ">
+    //             <a className="nav-link active" href="#jk">
+    //               Home
+    //             </a>
+    //           </li>
+    //           <li className="nav-item">
+    //             <a className="nav-link" href="#jk">
+    //               About Us
+    //             </a>
+    //           </li>
+    //           <li className="nav-item">
+    //             <a className="nav-link" href="#jk">
+    //               Our Clients
+    //             </a>
+    //           </li>
+    //           <li className="nav-item ">
+    //             <a className="nav-link disabled" href="#jk">
+    //               Contact Us
+    //             </a>
+    //           </li>
+    //         </ul>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Tabs With Dropdown</h1>
+    //       <div>
+    //         <nav className="nav nav-tabs">
+    //           <ul className="nav">
+    //             <li className="nav-item ">
+    //               <a className="nav-link active" href="#jk">
+    //                 Home
+    //               </a>
+    //             </li>
+    //             <li className="nav-item">
+    //               <a className="nav-link" href="#jk">
+    //                 About Us
+    //               </a>
+    //             </li>
+    //             <li className="nav-item dropdown">
+    //               <a
+    //                 className="nav-link dropdown-toggle"
+    //                 data-bs-toggle="dropdown"
+    //                 role="button"
+    //                 href="#jk"
+    //               >
+    //                 Our Clients
+    //               </a>
+    //               <div className="dropdown-menu">
+    //                 <a className="dropdown-item" href="#jd">
+    //                   Wipro
+    //                 </a>
+    //                 <a className="dropdown-item" href="#jd">
+    //                   TCS
+    //                 </a>
+    //                 <a className="dropdown-item" href="#jd">
+    //                   Microsoft
+    //                 </a>
+    //               </div>
+    //             </li>
+    //             <li className="nav-item ">
+    //               <a className="nav-link disabled" href="#jk">
+    //                 Contact Us
+    //               </a>
+    //             </li>
+    //           </ul>{" "}
+    //         </nav>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       {/* <h1>Tab With Contents</h1> */}
+    //       {/* <div>
+    //         <div>
+    //           <ul className="nav nav-tabs" id="myTabs" role="tablist">
+    //             <li className="nav-item ">
+    //               <a
+    //                 className="nav-link active"
+    //                 href="#client-info"
+    //                 id="course"
+    //                 data-bs-toggle="tab"
+    //                 role="tab"
+    //                 aria-controls="clientInfo"
+    //                 aria-selected="true"
+    //               >
+    //                 Wipro
+    //               </a>
+    //             </li>
+    //             <li className="nav-item">
+    //               <a
+    //                 href="#client-info-1"
+    //                 className="nav-link"
+    //                 id="client-1"
+    //                 data-bs-toggle="tab"
+    //                 role="tab"
+    //                 aria-controls="clientInfo"
+    //                 aria-selected="false"
+    //               >
+    //                 TCS
+    //               </a>
+    //             </li>
+    //             <li className="nav-item">
+    //               <a
+    //                 href="#client-2"
+    //                 className="nav-link"
+    //                 id="client-2"
+    //                 data-bs-toggle="tab"
+    //                 role="tab"
+    //                 aria-controls="clientInfo"
+    //                 aria-selected="false"
+    //               >
+    //                 Microsoft
+    //               </a>
+    //             </li>
+    //           </ul>
+    //           <div className="tab-content" id="myTabContent">
+    //             <div
+    //               className="tab-pane active"
+    //               id="course-info"
+    //               role="tabpanel"
+    //               aria-labelledby="client"
+    //             >
+    //               Client 1
+    //             </div>
+    //           </div>
+    //           <div className="tab-content" id="myTabContent">
+    //             <div
+    //               className="tab-pane "
+    //               id="client-1"
+    //               role="tabpanel"
+    //               aria-labelledby="client-1"
+    //             >
+    //               Clinet 2
+    //             </div>
+    //           </div>{" "}
+    //           <div className="tab-content" id="myTabContent">
+    //             <div
+    //               className="tab-pane "
+    //               id="client-2"
+    //               role="tabpanel"
+    //               aria-labelledby="client-2"
+    //             >
+    //               Client 3
+    //             </div>
+    //           </div>
+    //         </div>
+    //         <br />
+    //         <br />
+
+    //       </div> */}
+    //     </div>
+    //     <div>
+    //       <h1>Tab With Contents</h1>
+    //       <div>
+    //         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    //           <li class="nav-item" role="presentation">
+    //             <button
+    //               class="nav-link active"
+    //               id="pills-home-tab"
+    //               data-bs-toggle="pill"
+    //               data-bs-target="#pills-home"
+    //               type="button"
+    //               role="tab"
+    //               aria-controls="pills-home"
+    //               aria-selected="true"
+    //             >
+    //               TCS
+    //             </button>
+    //           </li>
+    //           <li class="nav-item" role="presentation">
+    //             <button
+    //               class="nav-link"
+    //               id="pills-profile-tab"
+    //               data-bs-toggle="pill"
+    //               data-bs-target="#pills-profile"
+    //               type="button"
+    //               role="tab"
+    //               aria-controls="pills-profile"
+    //               aria-selected="false"
+    //             >
+    //               Wipro
+    //             </button>
+    //           </li>
+    //           <li class="nav-item" role="presentation">
+    //             <button
+    //               class="nav-link"
+    //               id="pills-contact-tab"
+    //               data-bs-toggle="pill"
+    //               data-bs-target="#pills-contact"
+    //               type="button"
+    //               role="tab"
+    //               aria-controls="pills-contact"
+    //               aria-selected="false"
+    //             >
+    //               Microsoft
+    //             </button>
+    //           </li>
+    //         </ul>
+    //         <div class="tab-content" id="pills-tabContent">
+    //           <div
+    //             class="tab-pane fade show active"
+    //             id="pills-home"
+    //             role="tabpanel"
+    //             aria-labelledby="pills-home-tab"
+    //             tabindex="0"
+    //           >
+    //             TCS
+    //           </div>
+    //           <div
+    //             class="tab-pane fade"
+    //             id="pills-profile"
+    //             role="tabpanel"
+    //             aria-labelledby="pills-profile-tab"
+    //             tabindex="0"
+    //           >
+    //             Wipro
+    //           </div>
+    //           <div
+    //             class="tab-pane fade"
+    //             id="pills-contact"
+    //             role="tabpanel"
+    //             aria-labelledby="pills-contact-tab"
+    //             tabindex="0"
+    //           >
+    //             Microsoft
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>
+    //         Navbar
+    //         <div>
+    //           <div className="container">
+    //             <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    //               <a className="navbar-brand" href="#brand">
+    //                 <img
+    //                   src={products[7].thumbnail}
+    //                   alt="brand-img"
+    //                   className="w-25"
+    //                 />{" "}
+    //                 Brand{" "}
+    //               </a>
+    //               <ul className="navbar-nav ml-auto">
+    //                 <li className="nav-item">
+    //                   <a className="nav-link">Home</a>
+    //                 </li>{" "}
+    //                 <li className="nav-item">
+    //                   <a className="nav-link">Contact</a>
+    //                 </li>{" "}
+    //                 <li className="nav-item">
+    //                   <a className="nav-link">OurClients</a>
+    //                 </li>
+    //               </ul>
+    //             </nav>
+    //           </div>
+    //         </div>
+    //       </h1>
+    //     </div>
+    //     <div>
+    //       <h1>Mobile Friendly Navbar</h1>
+    //       <div>
+    //         <div>
+    //           <div>
+    //             <div className="container">
+    //               <nav className="navbar navbar-expand-lg bg-body body-teritiary">
+    //                 <div className="container-fluid">
+    //                   <a className="navbar-brand" href="#brand">
+    //                     Brand Image
+    //                   </a>
+    //                   <button
+    //                     className="navbar-toggler"
+    //                     type="button"
+    //                     data-bs-toggle="collapse"
+    //                     data-bs-target="#myMenu"
+    //                     aria-controls="#myMenu"
+    //                     aria-expanded="false"
+    //                     aria-label="Toggle navigation"
+    //                   >
+    //                     <span className="navbar-toggler-icon"></span>
+    //                   </button>
+    //                   <div className="collapse navbar-collapse" id="myMenu">
+    //                     <ul className="navbar-nav me-auto mb-lg-0">
+    //                       <li className="nav-item">
+    //                         <a className="nav-link active" aria-current="page">
+    //                           Home
+    //                         </a>
+    //                       </li>{" "}
+    //                       <li className="nav-item">
+    //                         <a className="nav-link">Contact</a>
+    //                       </li>{" "}
+    //                       <li className="nav-item">
+    //                         <a
+    //                           className="nav-link disable"
+    //                           aria-disabled="true"
+    //                         >
+    //                           OurClients
+    //                         </a>
+    //                       </li>
+    //                     </ul>
+    //                   </div>
+    //                 </div>
+    //               </nav>
+    //             </div>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       {/* <h1>Navabar placement Fixed Top Fixed Bottom and Sticky</h1>
+    //       <div> </div> */}
+    //     </div>
+    //     <div>
+    //       <h1>Dropdown Menu Navabar</h1>
+    //       <div>
+    //         <nav className="navbar navbar-expand-lg">
+    //           <div className="" id="navbarNavDropdown">
+    //             <ul className="navbar-nav">
+    //               <li className="nav-item">
+    //                 <a className="nav-link active" aria-current="page" href="#">
+    //                   Home
+    //                 </a>
+    //               </li>
+    //               <li className="nav-item">
+    //                 <a className="nav-link" href="#">
+    //                   Features
+    //                 </a>
+    //               </li>
+    //               <li className="nav-item dropdown">
+    //                 <a
+    //                   className="nav-link dropdown-toggle"
+    //                   href="#jd"
+    //                   role="button"
+    //                   data-bs-toggle="dropddown"
+    //                   aria-expanded="false"
+    //                 >
+    //                   Pricing Dropdown
+    //                 </a>
+    //                 <ul className="dropdown-menu">
+    //                   <li>
+    //                     <a className="dropdown-item" href="#">
+    //                       Action
+    //                     </a>
+    //                   </li>
+    //                   <li>
+    //                     <a className="dropdown-item" href="#">
+    //                       Another action
+    //                     </a>
+    //                   </li>
+
+    //                   <li>
+    //                     <a className="dropdown-item" href="#">
+    //                       Something else here
+    //                     </a>
+    //                   </li>
+    //                 </ul>
+    //               </li>
+    //               <li className="nav-item">
+    //                 <a class="nav-link disabled" aria-disabled="true">
+    //                   Disabled
+    //                 </a>
+    //               </li>
+    //             </ul>
+    //           </div>
+    //         </nav>
+    //       </div>
+    //       <div>
+    //         <ul className="navbar-nav">
+    //           <li className="nav-item dropdown">
+    //             <a
+    //               className="nav-link dropdown-toggle"
+    //               href="#"
+    //               role="button"
+    //               data-bs-toggle="dropdown"
+    //               aria-expanded="false"
+    //             >
+    //               Dropdown link
+    //             </a>
+    //             <ul className="dropdown-menu">
+    //               <li>
+    //                 <a className="dropdown-item" href="#">
+    //                   Action
+    //                 </a>
+    //               </li>
+    //               <li>
+    //                 <a className="dropdown-item" href="#">
+    //                   Another action
+    //                 </a>
+    //               </li>
+    //               <li>
+    //                 <a className="dropdown-item" href="#">
+    //                   Something else here
+    //                 </a>
+    //               </li>
+    //             </ul>
+    //           </li>
+    //         </ul>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Navbar Search</h1>
+    //       <div>
+    //         <nav class="navbar bg-body-tertiary">
+    //           <div class="container-fluid">
+    //             <form class="d-flex" role="search">
+    //               <input
+    //                 class="form-control me-2"
+    //                 type="search"
+    //                 placeholder="Search"
+    //                 aria-label="Search"
+    //               />
+    //               <button class="btn btn-outline-dark" type="submit">
+    //                 Search
+    //               </button>
+    //             </form>
+    //           </div>
+    //         </nav>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Image Slider Or Carousel</h1>
+    //       <div id="carouselExample" className="carousel slide">
+    //         <div className="carousel-inner">
+    //           <div className="carousel-item active">
+    //             <img
+    //               src={products[5].images[1]}
+    //               className="d-block w-100"
+    //               alt="img-1"
+    //               width={"200px"}
+    //               height={"200px"}
+    //             />
+    //           </div>
+    //           <div className="carousel-item">
+    //             <img
+    //               src={products[5].images[2]}
+    //               className="d-block w-100"
+    //               alt="img-2"
+    //               width={"200px"}
+    //               height={"200px"}
+    //             />
+    //           </div>
+    //           <div className="carousel-item">
+    //             <img
+    //               src={products[5].images[3]}
+    //               className="d-block w-100"
+    //               alt="img-3"
+    //               width={"200px"}
+    //               height={"200px"}
+    //             />
+    //           </div>
+    //           <div className="carousel-item">
+    //             <img
+    //               src={products[5].images[0]}
+    //               className="d-block w-100"
+    //               alt="img-0"
+    //               width={"200px"}
+    //               height={"200px"}
+    //             />
+    //           </div>
+    //         </div>
+    //         <button
+    //           className="carousel-control-prev"
+    //           type="button"
+    //           data-bs-target="#carouselExample"
+    //           data-bs-slide="prev"
+    //         >
+    //           <span
+    //             className="carousel-control-prev-icon"
+    //             aria-hidden="true"
+    //           ></span>
+    //           <span className="visually-hidden">Previous</span>
+    //         </button>
+    //         <button
+    //           className="carousel-control-next"
+    //           type="button"
+    //           data-bs-target="#carouselExample"
+    //           data-bs-slide="next"
+    //         >
+    //           <span
+    //             className="carousel-control-next-icon"
+    //             aria-hidden="true"
+    //           ></span>
+    //           <span className="visually-hidden">Next</span>
+    //         </button>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Jumbotron </h1>
+    //       <div className="container">
+    //         <div className="jumbotron">
+    //           <h1>Jumbotron CLASS NOT WORKING IN VER 5.3</h1>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Pagination</h1>
+    //       <div>
+    //         <nav aria-label="Page navigation">
+    //           <ul className="pagination justify-content-center">
+    //             {/* <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 Previous
+    //               </a>
+    //             </li> */}
+    //             <li className="page-item">
+    //               <a className="page-link" aria-label="Previous" href="#">
+    //                 <span aria-hidden="true">&laquo;</span>{" "}
+    //                 <span className="sr-only"> Previous</span>
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 1
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 2
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 3
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 4
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 5
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 6
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 7
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" href="#">
+    //                 Next
+    //               </a>
+    //             </li>
+    //             <li className="page-item">
+    //               <a className="page-link" aria-label="Next" href="#">
+    //                 <span className="sr-only"> Next</span>
+    //                 <span aria-hidden="true">&raquo;</span>{" "}
+    //               </a>
+    //             </li>
+    //           </ul>
+    //         </nav>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Progress Bar</h1>
+    //       <div>
+    //         <div className="progress">
+    //           <div
+    //             className="progress-bar w-75"
+    //             role="progressbar"
+    //             // style={{"width:25%"}}
+    //             aria-valuenow={"25"}
+    //             aria-valuemin={"0"}
+    //             aria-valuetext={"100"}
+    //           ></div>{" "}
+    //         </div>
+    //         <div className="progress m-2">
+    //           <div
+    //             className="progress-bar"
+    //             role="progressbar"
+    //             style={{ width: "40%" }}
+    //             aria-valuenow={"50"}
+    //             aria-valuemin={"0"}
+    //             aria-valuetext={"100"}
+    //           ></div>{" "}
+    //         </div>
+    //         <div className="progress">
+    //           <div
+    //             className="progress-bar "
+    //             role="progressbar"
+    //             style={{ width: "25%" }}
+    //             aria-valuenow={"50"}
+    //             aria-valuemin={"0"}
+    //             aria-valuetext={"100"}
+    //           ></div>{" "}
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div>
+    //       <h1>Tooltips</h1>
+    //       <div className="container">
+    //         <button
+    //           className="btn btn-warning"
+    //           data-toggle="tooltip"
+    //           data-placement="bottom"
+    //           title="click to login"
+    //         >
+    //           Login
+    //         </button>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
     <div>
-      <div className="m-3">
-        <h1> Day 07</h1>
-        <div>
-          <h2>Card Group</h2>
-          <div className="card-group ">
-            <div className="card text-white bg-primary">
-              <img
-                className="card-img-top"
-                alt="img"
-                src={products[7].thumbnail}
-              />
-              <div className="card-body">
-                <h3 className="card-text">{products[7].title}</h3>
-                <p className="card-text">{products[7].description}</p>
-              </div>
-            </div>
-            <div className="card bg-warning">
-              <img
-                className="card-img-top"
-                alt="img"
-                src={products[8].thumbnail}
-              />
-              <div className="card-body">
-                <h3 className="card-text">{products[8].title}</h3>
-                <p className="card-text">{products[8].description}</p>
-              </div>
-            </div>
-            <div className="card bg-danger">
-              <img
-                className="card-img-top"
-                alt="img"
-                src={products[9].thumbnail}
-              />
-              <div className="card-body">
-                <h3 className="card-text">{products[9].title}</h3>
-                <p className="card-text">{products[9].description}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h2>Card Decks</h2>
-          <div>
-            <div className="card-deck ">
-              <div className="card text-white bg-primary">
-                <img
-                  className="card-img-top"
-                  src={products[7].thumbnail}
-                  alt="img7"
-                  style={{ width: "300px" }}
-                />
-                <div className="card-body">
-                  <h3 className="card-text">{products[7].title}</h3>
-                  <p className="card-text">{products[7].description}</p>
-                </div>
-              </div>
-              <div className="card bg-warning">
-                <img
-                  className="card-img-top"
-                  style={{ width: "300px" }}
-                  alt="img"
-                  src={products[8].thumbnail}
-                />
-                <div className="card-body">
-                  <h3 className="card-text">{products[8].title}</h3>
-                  <p className="card-text">{products[8].description}</p>
-                </div>
-              </div>
-              <div className="card bg-danger">
-                <img
-                  className="card-img-top"
-                  style={{ width: "300px" }}
-                  alt="img"
-                  src={products[9].thumbnail}
-                />
-                <div className="card-body">
-                  <h3 className="card-text">{products[9].title}</h3>
-                  <p className="card-text">{products[9].description}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h2>Card Column</h2>
-          <div>
-            <div className="card-columns ">
-              <div className="card text-white bg-primary">
-                <div className="card-body">
-                  <h3 className="card-text">{products[7].title}</h3>
-                  <p className="card-text">{products[7].description}</p>
-                  <p className="card-text">{products[7].description}</p>
-                </div>
-              </div>
-              <div className="card bg-warning">
-                <div className="card-body">
-                  <h3 className="card-text">{products[8].title}</h3>
-                  <p className="card-text">{products[8].description}</p>
-                </div>
-              </div>
-              <div className="card bg-danger">
-                <div className="card-body">
-                  <h3 className="card-text">{products[9].title}</h3>
-                  <p className="card-text">{products[9].description}</p>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="card-columns ">
-              <div className="card text-white bg-primary">
-                <div className="card-body">
-                  <h3 className="card-text">{products[7].title}</h3>
-                  <p className="card-text">{products[7].description}</p>
-                  <p className="card-text">{products[7].description}</p>
-                </div>
-              </div>
-              <div className="card bg-warning">
-                <div className="card-body">
-                  <h3 className="card-text">{products[8].title}</h3>
-                  <p className="card-text">{products[8].description}</p>
-                </div>
-              </div>
-              <div className="card bg-danger">
-                <div className="card-body">
-                  <h3 className="card-text">{products[9].title}</h3>
-                  <p className="card-text">{products[9].description}</p>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="card-columns ">
-              <div className="card text-white bg-primary">
-                <div className="card-body">
-                  <h3 className="card-text">{products[7].title}</h3>
-                  <p className="card-text">{products[7].description}</p>
-                  <p className="card-text">{products[7].description}</p>
-                </div>
-              </div>
-              <div className="card bg-warning">
-                <div className="card-body">
-                  <h3 className="card-text">{products[8].title}</h3>
-                  <p className="card-text">{products[8].description}</p>
-                </div>
-              </div>
-              <div className="card bg-danger">
-                <div className="card-body">
-                  <h3 className="card-text">{products[9].title}</h3>
-                  <p className="card-text">{products[9].description}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Dropdown</h1>
-          <div>
-            <div className="dropdown">
-              <button
-                className="btn btn-success dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Profile
-              </button>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <a className="dropdown-item">Edit Profile</a>
-                <a className="dropdown-item">Change Password</a>
-                <a className="dropdown-item">Change Email</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Split Button</h1>
-          <div>
-            <div className="dropdown">
-              <button type="button" className="btn btn-danger">
-                Profile
-              </button>
-              <button
-                className="btn btn-success dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              ></button>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <a className="dropdown-item">Edit Profile</a>
-                <a className="dropdown-item">Change Password</a>
-                <a className="dropdown-item">Change Email</a>
-              </div>
-            </div>{" "}
-            <div className="btn-group">
-              <button type="button" className="btn btn-warning">
-                Profile
-              </button>
-              <button
-                className="btn btn-warning dropdown-toggle dropdown-toggle-split"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              ></button>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <a className="dropdown-item">Edit Profile</a>
-                <a className="dropdown-item">Change Password</a>
-                <a className="dropdown-item">Change Email</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Dropdown Directions</h1>
-          <div>
-            <div className="btn-group dropup">
-              <button type="button" className="btn btn-danger">
-                Profile
-              </button>
-              <button
-                className="btn btn-success dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              ></button>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <a className="dropdown-item">Edit Profile</a>
-                <a className="dropdown-item">Change Password</a>
-                <a className="dropdown-item">Change Email</a>
-              </div>
-            </div>
-            <div className="btn-group dropend">
-              <button type="button" className="btn btn-danger">
-                Profile
-              </button>
-              <button
-                className="btn btn-success dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              ></button>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <a className="dropdown-item">Edit Profile</a>
-                <a className="dropdown-item">Change Password</a>
-                <a className="dropdown-item">Change Email</a>
-              </div>
-            </div>
-            <div className="btn-group dropstart">
-              <button type="button" className="btn btn-danger">
-                Profile
-              </button>
-              <button
-                className="btn btn-success dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              ></button>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <a className="dropdown-item">Edit Profile</a>
-                <a className="dropdown-item">Change Password</a>
-                <a className="dropdown-item">Change Email</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Collapse</h1>
-          <div>
-            <div className="container">
-              <h3>By using anchor tag</h3>
-              <a
-                className="btn btn-primary"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-                data-bs-toggle="collapse"
-                href="#mydiv"
-              >
-                Click Me
-              </a>
-              <div className="collapse" id="mydiv">
-                Provide a valid, navigable address as the href value. If you
-                cannot provide an href, but still need the element to resemble a
-                link, use a button and change it with appropriate styles. Learn
-                more:
-                https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="container">
-              <h3>By using a button</h3>
-              <button
-                className="btn btn-danger"
-                // role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-                data-bs-toggle="collapse"
-                data-bs-target="#mydiv2"
-              >
-                Click Me
-              </button>
-              <div className="collapse" id="mydiv2">
-                Provide a valid, navigable address as the href value. If you
-                cannot provide an href, but still need the element to resemble a
-                link, use a button and change it with appropriate styles. Learn
-                more:
-                https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Accordion</h1>
-          <div>
-            <div className="accordion" id="accordion-ex">
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-1"
-                    aria-expanded="false"
-                    // aria-controls="collapse-1"
-                  >
-                    Accordion Button 1
-                  </button>
-                </h2>
-                <div
-                  id="collapse-1"
-                  className="accordion-collapse collapse show"
-                  data-bs-parent="#accordion-ex"
-                >
-                  Line 2456:17: The href attribute is required for an anchor to
-                  be keyboard accessible. Provide a valid, navigable address as
-                  the href value. If you cannot provide an href, but still need
-                  the element to resemble a link, use a button and change it
-                  with appropriate styles. Learn more:
-                  https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-                  jsx-a11y/anchor-is-valid
-                </div>
-              </div>
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapse-2"
-                    aria-expanded="false"
-                    // aria-controls="collapse-1"
-                  >
-                    Accordion Button 2
-                  </button>
-                </h2>
-                <div
-                  id="collapse-2"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordion-ex"
-                >
-                  Line 2456:17: The href attribute is required for an anchor to
-                  be keyboard accessible. Provide a valid, navigable address as
-                  the href value. If you cannot provide an href, but still need
-                  the element to resemble a link, use a button and change it
-                  with appropriate styles. Learn more:
-                  https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-                  jsx-a11y/anchor-is-valid
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h2>Badges</h2>
-          <div>
-            <div>
-              <h1>
-                Notifications
-                <span className="badge text-bg-primary">NEW</span>
-                <button className="btn btn-info">
-                  Inbox <span className="badge text-bg-primary">6</span>{" "}
-                </button>
-              </h1>
-              <a href="#idk" className="badge badge-dark text-bg-dark">
-                Visit
-              </a>
-              <a
-                href="#idk"
-                className="badge rounded-pill badge-dark text-bg-dark"
-              >
-                Visit
-              </a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Base Nav</h1>
-          <div>
-            <div className="container">
-              <ul className="nav">
-                <li className="nav-item">
-                  <a className="nav-link" href="#jk">
-                    Home
-                  </a>{" "}
-                </li>{" "}
-                <li className="nav-item">
-                  <a className="nav-link" href="#jk">
-                    About Us
-                  </a>{" "}
-                </li>{" "}
-                <li className="nav-item">
-                  <a className="nav-link" href="#jk">
-                    Our Clients
-                  </a>{" "}
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link disabled" href="#jk">
-                    Contact Us
-                  </a>{" "}
-                </li>{" "}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Tabs</h1>
-          <div>
-            <ul className="nav nav-tabs">
-              <li className="nav-item">
-                <a className="nav-link" href="#jk">
-                  Home
-                </a>{" "}
-              </li>{" "}
-              <li className="nav-item">
-                <a className="nav-link" href="#jk">
-                  About Us
-                </a>{" "}
-              </li>{" "}
-              <li className="nav-item">
-                <a className="nav-link" href="#jk">
-                  Our Clients
-                </a>{" "}
-              </li>
-              <li className="nav-item ">
-                <a className="nav-link disabled" href="#jk">
-                  Contact Us
-                </a>{" "}
-              </li>{" "}
-            </ul>
-          </div>
-          <h1>Pills and Fill</h1>
-          <div>
-            <ul className="nav nav-pills nav-fill">
-              <li className="nav-item ">
-                <a className="nav-link active" href="#jk">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#jk">
-                  About Us
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#jk">
-                  Our Clients
-                </a>
-              </li>
-              <li className="nav-item ">
-                <a className="nav-link disabled" href="#jk">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h1>justified</h1>
-
-            <ul className="nav nav-pills nav-fill nav-justified">
-              <li className="nav-item ">
-                <a className="nav-link active" href="#jk">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#jk">
-                  About Us
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#jk">
-                  Our Clients
-                </a>
-              </li>
-              <li className="nav-item ">
-                <a className="nav-link disabled" href="#jk">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <h1>Tabs With Dropdown</h1>
-          <div>
-            <nav className="nav nav-tabs">
-              <ul className="nav">
-                <li className="nav-item ">
-                  <a className="nav-link active" href="#jk">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#jk">
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    role="button"
-                    href="#jk"
-                  >
-                    Our Clients
-                  </a>
-                  <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#jd">
-                      Wipro
-                    </a>
-                    <a className="dropdown-item" href="#jd">
-                      TCS
-                    </a>
-                    <a className="dropdown-item" href="#jd">
-                      Microsoft
-                    </a>
-                  </div>
-                </li>
-                <li className="nav-item ">
-                  <a className="nav-link disabled" href="#jk">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>{" "}
-            </nav>
-          </div>
-        </div>
-        <div>
-          {/* <h1>Tab With Contents</h1> */}
-          {/* <div>
-            <div>
-              <ul className="nav nav-tabs" id="myTabs" role="tablist">
-                <li className="nav-item ">
-                  <a
-                    className="nav-link active"
-                    href="#client-info"
-                    id="course"
-                    data-bs-toggle="tab"
-                    role="tab"
-                    aria-controls="clientInfo"
-                    aria-selected="true"
-                  >
-                    Wipro
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="#client-info-1"
-                    className="nav-link"
-                    id="client-1"
-                    data-bs-toggle="tab"
-                    role="tab"
-                    aria-controls="clientInfo"
-                    aria-selected="false"
-                  >
-                    TCS
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="#client-2"
-                    className="nav-link"
-                    id="client-2"
-                    data-bs-toggle="tab"
-                    role="tab"
-                    aria-controls="clientInfo"
-                    aria-selected="false"
-                  >
-                    Microsoft
-                  </a>
-                </li>
-              </ul>
-              <div className="tab-content" id="myTabContent">
-                <div
-                  className="tab-pane active"
-                  id="course-info"
-                  role="tabpanel"
-                  aria-labelledby="client"
-                >
-                  Client 1
-                </div>
-              </div>
-              <div className="tab-content" id="myTabContent">
-                <div
-                  className="tab-pane "
-                  id="client-1"
-                  role="tabpanel"
-                  aria-labelledby="client-1"
-                >
-                  Clinet 2
-                </div>
-              </div>{" "}
-              <div className="tab-content" id="myTabContent">
-                <div
-                  className="tab-pane "
-                  id="client-2"
-                  role="tabpanel"
-                  aria-labelledby="client-2"
-                >
-                  Client 3
-                </div>
-              </div>
-            </div>
-            <br />
-            <br />
-            
-          </div> */}
-        </div>
-        <div>
-          <h1>Tab With Contents</h1>
-          <div>
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="pills-home-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-home"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-home"
-                  aria-selected="true"
-                >
-                  TCS
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-profile-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-profile"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-profile"
-                  aria-selected="false"
-                >
-                  Wipro
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-contact-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-contact"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-contact"
-                  aria-selected="false"
-                >
-                  Microsoft
-                </button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div
-                class="tab-pane fade show active"
-                id="pills-home"
-                role="tabpanel"
-                aria-labelledby="pills-home-tab"
-                tabindex="0"
-              >
-                TCS
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-profile"
-                role="tabpanel"
-                aria-labelledby="pills-profile-tab"
-                tabindex="0"
-              >
-                Wipro
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-contact"
-                role="tabpanel"
-                aria-labelledby="pills-contact-tab"
-                tabindex="0"
-              >
-                Microsoft
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>
-            Navbar
-            <div>
-              <div className="container">
-                <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-                  <a className="navbar-brand" href="#brand">
-                    <img
-                      src={products[7].thumbnail}
-                      alt="brand-img"
-                      className="w-25"
-                    />{" "}
-                    Brand{" "}
-                  </a>
-                  <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                      <a className="nav-link">Home</a>
-                    </li>{" "}
-                    <li className="nav-item">
-                      <a className="nav-link">Contact</a>
-                    </li>{" "}
-                    <li className="nav-item">
-                      <a className="nav-link">OurClients</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </h1>
-        </div>
-        <div>
-          <h1>Mobile Friendly Navbar</h1>
-          <div>
-            <div>
-              <div>
-                <div className="container">
-                  <nav className="navbar navbar-expand-lg bg-body body-teritiary">
-                    <div className="container-fluid">
-                      <a className="navbar-brand" href="#brand">
-                        Brand Image
-                      </a>
-                      <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#myMenu"
-                        aria-controls="#myMenu"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                      >
-                        <span className="navbar-toggler-icon"></span>
-                      </button>
-                      <div className="collapse navbar-collapse" id="myMenu">
-                        <ul className="navbar-nav me-auto mb-lg-0">
-                          <li className="nav-item">
-                            <a className="nav-link active" aria-current="page">
-                              Home
-                            </a>
-                          </li>{" "}
-                          <li className="nav-item">
-                            <a className="nav-link">Contact</a>
-                          </li>{" "}
-                          <li className="nav-item">
-                            <a
-                              className="nav-link disable"
-                              aria-disabled="true"
-                            >
-                              OurClients
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          {/* <h1>Navabar placement Fixed Top Fixed Bottom and Sticky</h1>
-          <div> </div> */}
-        </div>
-        <div>
-          <h1>Dropdown Menu Navabar</h1>
-          <div>
-            <nav className="navbar navbar-expand-lg">
-              <div className="" id="navbarNavDropdown">
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Features
-                    </a>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#jd"
-                      role="button"
-                      data-bs-toggle="dropddown"
-                      aria-expanded="false"
-                    >
-                      Pricing Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Action
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Another action
-                        </a>
-                      </li>
-
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Something else here
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">
-                      Disabled
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <div>
-            <ul className="navbar-nav">
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown link
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <h1>Navbar Search</h1>
-          <div>
-            <nav class="navbar bg-body-tertiary">
-              <div class="container-fluid">
-                <form class="d-flex" role="search">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                  <button class="btn btn-outline-dark" type="submit">
-                    Search
-                  </button>
-                </form>
-              </div>
-            </nav>
-          </div>
-        </div>
-        <div>
-          <h1>Image Slider Or Carousel</h1>
-          <div id="carouselExample" className="carousel slide">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img
-                  src={products[5].images[1]}
-                  className="d-block w-100"
-                  alt="img-1"
-                  width={"200px"}
-                  height={"200px"}
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src={products[5].images[2]}
-                  className="d-block w-100"
-                  alt="img-2"
-                  width={"200px"}
-                  height={"200px"}
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src={products[5].images[3]}
-                  className="d-block w-100"
-                  alt="img-3"
-                  width={"200px"}
-                  height={"200px"}
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src={products[5].images[0]}
-                  className="d-block w-100"
-                  alt="img-0"
-                  width={"200px"}
-                  height={"200px"}
-                />
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <div>
-          <h1>Jumbotron </h1>
-          <div className="container">
-            <div className="jumbotron">
-              <h1>Jumbotron CLASS NOT WORKING IN VER 5.3</h1>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Pagination</h1>
-          <div>
-            <nav aria-label="Page navigation">
-              <ul className="pagination justify-content-center">
-                {/* <li className="page-item">
-                  <a className="page-link" href="#">
-                    Previous
-                  </a>
-                </li> */}
-                <li className="page-item">
-                  <a className="page-link" aria-label="Previous" href="#">
-                    <span aria-hidden="true">&laquo;</span>{" "}
-                    <span className="sr-only"> Previous</span>
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    1
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    2
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    3
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    4
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    5
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    6
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    7
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" href="#">
-                    Next
-                  </a>
-                </li>
-                <li className="page-item">
-                  <a className="page-link" aria-label="Next" href="#">
-                    <span className="sr-only"> Next</span>
-                    <span aria-hidden="true">&raquo;</span>{" "}
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div>
-          <h1>Progress Bar</h1>
-          <div>
-            <div className="progress">
-              <div
-                className="progress-bar w-75"
-                role="progressbar"
-                // style={{"width:25%"}}
-                aria-valuenow={"25"}
-                aria-valuemin={"0"}
-                aria-valuetext={"100"}
-              ></div>{" "}
-            </div>
-            <div className="progress m-2">
-              <div
-                className="progress-bar"
-                role="progressbar"
-                style={{ width: "40%" }}
-                aria-valuenow={"50"}
-                aria-valuemin={"0"}
-                aria-valuetext={"100"}
-              ></div>{" "}
-            </div>
-            <div className="progress">
-              <div
-                className="progress-bar "
-                role="progressbar"
-                style={{ width: "25%" }}
-                aria-valuenow={"50"}
-                aria-valuemin={"0"}
-                aria-valuetext={"100"}
-              ></div>{" "}
-            </div>
-          </div>
-        </div>
-        <div>
-          <h1>Tooltips</h1>
-          <div className="container">
-            <button
-              className="btn btn-warning"
-              data-toggle="tooltip"
-              data-placement="bottom"
-              title="click to login"
-            >
-              Login
-            </button>
-          </div>
-        </div>
-      </div>
+      <h1>COMPLETED ON 29-FEB-2024 PUSH</h1>
     </div>
   );
 }
